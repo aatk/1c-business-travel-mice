@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаГлавная" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа главная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа главная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаГлавнаяРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<Page name="ДанныеНастройки" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДанныеНастройкиРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<CheckBoxField name="Использование" id="19">
+							<DataPath>Запись.Использование</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользованиеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ИспользованиеРасширеннаяПодсказка" id="21"/>
+						</CheckBoxField>
+						<InputField name="Партнер" id="7">
+							<DataPath>Запись.Партнер</DataPath>
+							<ContextMenu name="ПартнерКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ПартнерРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Контрагент" id="10">
+							<DataPath>Запись.Контрагент</DataPath>
+							<ContextMenu name="КонтрагентКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="Договор" id="13">
+							<DataPath>Запись.Договор</DataPath>
+							<ContextMenu name="ДоговорКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Объект" id="4">
+							<DataPath>Запись.Объект</DataPath>
+							<ContextMenu name="ОбъектКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="6"/>
+							<Events>
+								<Event name="OnChange">ОбъектПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ИмяМакета" id="1">
+							<DataPath>Запись.ИмяМакета</DataPath>
+							<DropListButton>true</DropListButton>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ИмяМакетаКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ИмяМакетаРасширеннаяПодсказка" id="3"/>
+							<Events>
+								<Event name="OnChange">ИмяМакетаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="КоличествоКопий" id="98">
+							<DataPath>Запись.КоличествоКопий</DataPath>
+							<SpinButton>true</SpinButton>
+							<ContextMenu name="КоличествоКопийКонтекстноеМеню" id="99"/>
+							<ExtendedTooltip name="КоличествоКопийРасширеннаяПодсказка" id="100"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаТабличногоДокумента" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Табличный документ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа табличного документа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаТабличногоДокументаРасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<CommandBar name="ГруппаКПТабличногоДокумента" id="37">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа КПТабличного документа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа КПТабличного документа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CommandSource>Item.ТабличныйДокумент</CommandSource>
+							<ExtendedTooltip name="ГруппаКПТабличногоДокументаРасширеннаяПодсказка" id="38"/>
+							<ChildItems>
+								<Popup name="ТабличныйДокументГруппаИмена" id="83">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группировки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Табличный документ группа имена</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ТабличныйДокументГруппаИменаРасширеннаяПодсказка" id="84"/>
+									<ChildItems>
+										<Button name="ТабличныйДокументУбратьИмя" id="85">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RemoveName</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументУбратьИмяРасширеннаяПодсказка" id="86"/>
+										</Button>
+										<Button name="ТабличныйДокументНазначитьИмя" id="87">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SetName</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументНазначитьИмяРасширеннаяПодсказка" id="88"/>
+										</Button>
+									</ChildItems>
+								</Popup>
+								<ButtonGroup name="ТабличныйДокументГруппаШрифт" id="47">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Табличный документ группа шрифт</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Табличный документ группа шрифт</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ТабличныйДокументГруппаШрифтРасширеннаяПодсказка" id="48"/>
+									<ChildItems>
+										<Button name="ТабличныйДокументШрифт" id="39">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Font</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументШрифтРасширеннаяПодсказка" id="40"/>
+										</Button>
+										<Button name="ТабличныйДокументЖирный" id="41">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Bold</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументЖирныйРасширеннаяПодсказка" id="42"/>
+										</Button>
+										<Button name="ТабличныйДокументНаклонный" id="43">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Italic</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументНаклонныйРасширеннаяПодсказка" id="44"/>
+										</Button>
+										<Button name="ТабличныйДокументПодчеркивание" id="45">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Underline</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументПодчеркиваниеРасширеннаяПодсказка" id="46"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+								<Popup name="ТабличныйДокументГруппаГраницы" id="49">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Границы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Табличный документ группа границы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ТабличныйДокументГруппаГраницыРасширеннаяПодсказка" id="50"/>
+									<ChildItems>
+										<Button name="ТабличныйДокументГраницаСлева" id="51">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderLeft</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаСлеваРасширеннаяПодсказка" id="52"/>
+										</Button>
+										<Button name="ТабличныйДокументГраницаСверху" id="53">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderTop</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаСверхуРасширеннаяПодсказка" id="54"/>
+										</Button>
+										<Button name="ТабличныйДокументГраницаСправа" id="55">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderRight</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаСправаРасширеннаяПодсказка" id="56"/>
+										</Button>
+										<Button name="ТабличныйДокументГраницаСнизу" id="57">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderBottom</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаСнизуРасширеннаяПодсказка" id="58"/>
+										</Button>
+										<Button name="ТабличныйДокументГраницаВезде" id="59">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderAll</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаВездеРасширеннаяПодсказка" id="60"/>
+										</Button>
+										<Button name="ТабличныйДокументГраницаВокруг" id="61">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderOutline</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаВокругРасширеннаяПодсказка" id="62"/>
+										</Button>
+										<Button name="ТабличныйДокументГраницаВнутри" id="63">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderInside</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументГраницаВнутриРасширеннаяПодсказка" id="64"/>
+										</Button>
+										<Button name="ТабличныйДокументТолстаяГраницаВокруг" id="65">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ThickBorderOutline</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументТолстаяГраницаВокругРасширеннаяПодсказка" id="66"/>
+										</Button>
+										<Button name="ТабличныйДокументТолстаяГраницаСверху" id="67">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ThickBorderTop</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументТолстаяГраницаСверхуРасширеннаяПодсказка" id="68"/>
+										</Button>
+										<Button name="ТабличныйДокументТолстаяГраницаСнизу" id="69">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ThickBorderBottom</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументТолстаяГраницаСнизуРасширеннаяПодсказка" id="70"/>
+										</Button>
+										<Button name="ТабличныйДокументНетГраницы" id="71">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderNone</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументНетГраницыРасширеннаяПодсказка" id="72"/>
+										</Button>
+									</ChildItems>
+								</Popup>
+								<ButtonGroup name="ТабличныйДокументГруппаВыравнивание" id="73">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Табличный документ группа выравнивание</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Табличный документ группа выравнивание</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ТабличныйДокументГруппаВыравниваниеРасширеннаяПодсказка" id="74"/>
+									<ChildItems>
+										<Button name="ТабличныйДокументВыровнятьПоШирине" id="75">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignJustify</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументВыровнятьПоШиринеРасширеннаяПодсказка" id="76"/>
+										</Button>
+										<Button name="ТабличныйДокументВыровнятьВлево" id="77">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignLeft</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументВыровнятьВлевоРасширеннаяПодсказка" id="78"/>
+										</Button>
+										<Button name="ТабличныйДокументВыровнятьПоЦентру" id="79">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignCenter</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументВыровнятьПоЦентруРасширеннаяПодсказка" id="80"/>
+										</Button>
+										<Button name="ТабличныйДокументВыровнятьВправо" id="81">
+											<Type>CommandBarButton</Type>
+											<OnlyInAllActions>true</OnlyInAllActions>
+											<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignRight</CommandName>
+											<ExtendedTooltip name="ТабличныйДокументВыровнятьВправоРасширеннаяПодсказка" id="82"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+							</ChildItems>
+						</CommandBar>
+						<SpreadSheetDocumentField name="ТабличныйДокумент" id="34">
+							<DataPath>ТабличныйДокумент</DataPath>
+							<ShowGrid>true</ShowGrid>
+							<ShowHeaders>true</ShowHeaders>
+							<Edit>true</Edit>
+							<ShowCellNames>true</ShowCellNames>
+							<ShowRowAndColumnNames>true</ShowRowAndColumnNames>
+							<ContextMenu name="ТабличныйДокументКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ТабличныйДокументРасширеннаяПодсказка" id="36"/>
+						</SpreadSheetDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаЗапросМакета" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрос макета</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа запрос макета</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаЗапросМакетаРасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<UsualGroup name="ИзменениеЗапроса" id="94">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Изменение запроса</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Изменение запроса</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ИзменениеЗапросаРасширеннаяПодсказка" id="95"/>
+							<ChildItems>
+								<CommandBar name="ГруппаКПЗапроса" id="30">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа КПЗапроса</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа КПЗапроса</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаКПЗапросаРасширеннаяПодсказка" id="31"/>
+									<ChildItems>
+										<Button name="КонструкторЗапроса" id="32">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.КонструкторЗапроса</CommandName>
+											<ExtendedTooltip name="КонструкторЗапросаРасширеннаяПодсказка" id="33"/>
+										</Button>
+										<Button name="ПеречитатьЗапрос" id="96">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ПеречитатьЗапрос</CommandName>
+											<ExtendedTooltip name="ПеречитатьЗапросРасширеннаяПодсказка" id="97"/>
+										</Button>
+									</ChildItems>
+								</CommandBar>
+								<TextDocumentField name="ЗапросМакета" id="16">
+									<DataPath>Запись.ЗапросМакета</DataPath>
+									<ContextMenu name="ЗапросМакетаКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="ЗапросМакетаРасширеннаяПодсказка" id="18"/>
+								</TextDocumentField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ОшибкаПолученияЗапроса" id="89">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ошибка получения запроса</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ошибка получения запроса</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ОшибкаПолученияЗапросаРасширеннаяПодсказка" id="90"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация1" id="91">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Изменение запроса не поддерживается данной обработкой</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="92"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="93"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ПользовательскиеМакетыПечатиБТ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ТабличныйДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресХранилища" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КонструкторЗапроса" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструктор запроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструктор запроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.QueryWizard</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КонструкторЗапроса</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПеречитатьЗапрос" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечитать запрос</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечитать запрос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПеречитатьЗапрос</Action>
+		</Command>
+	</Commands>
+</Form>

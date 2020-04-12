@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.5">
+	<Item id="9223cd72-d328-4980-a49b-70a855c2c6c7">
+		<Name>НастройкиЗагрузок</Name>
+		<Code>000000063</Code>
+		<Description>Настройки загрузок</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="4733fddf-2ce2-4182-98dc-0991697386cd">
+				<Name>ЗагружатьВСоответствие</Name>
+				<Code>000000064</Code>
+				<Description>Загружать в соответствие</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="46664c24-5b98-11e8-9585-320018ec0000">
+		<Name>ТиповыеУслуги</Name>
+		<Code>000000005</Code>
+		<Description>Типовые услуги</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="42b469f4-5b9c-11e8-9585-320018ec0000">
+				<Name>Авиабилеты</Name>
+				<Code>000000012</Code>
+				<Description>Авиабилеты</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="37b4de80-5b9c-11e8-9585-320018ec0000">
+						<Name>Авиабилет</Name>
+						<Code>000000011</Code>
+						<Description>Авиабилет</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="59b58cdc-5b9c-11e8-9585-320018ec0000">
+						<Name>ВозвратАвиабилета</Name>
+						<Code>000000014</Code>
+						<Description>Возврат авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f587fbc4-6039-485a-a546-efc380b27e3a">
+						<Name>ВозвратСборАвиаперевозчика</Name>
+						<Code>000000049</Code>
+						<Description>Возврат сбор авиаперевозчика</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="881f0b19-1eff-40a7-8971-1e42952501b9">
+						<Name>ВозвратСбораГражданскойВоздушнойАвиации</Name>
+						<Code>000000039</Code>
+						<Description>Возврат сбора гражданской воздушной авиации</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="da5674b2-d986-4700-b0e7-f937990a56f3">
+						<Name>ДополнительныеУслугиКАвиабилету</Name>
+						<Code>000000062</Code>
+						<Description>Дополнительные услуги к авиабилету</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="183f5ab4-5ba4-11e8-9585-320018ec0000">
+						<Name>ДополнительныйБагаж</Name>
+						<Code>000000018</Code>
+						<Description>Дополнительный багаж</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="647ff3fa-5b9c-11e8-9585-320018ec0000">
+						<Name>ОбменАвиабилета</Name>
+						<Code>000000015</Code>
+						<Description>Обмен авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="4f0dd6fe-5b9c-11e8-9585-320018ec0000">
+						<Name>ОтменаАвиабилета</Name>
+						<Code>000000013</Code>
+						<Description>Отмена авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="713b667c-f5a8-4934-a602-296452769ee3">
+						<Name>СборАвиаперевозчика</Name>
+						<Code>000000030</Code>
+						<Description>Сбор авиаперевозчика</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="aa336878-a547-484b-ace0-2c0e02636935">
+						<Name>СборГражданскойВоздушнойАвиации</Name>
+						<Code>000000038</Code>
+						<Description>Сбор гражданской воздушной авиации</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="a7270a96-01b4-4a5d-b614-c8d714eb2fab">
+						<Name>СегментАвиабилета</Name>
+						<Code>000000047</Code>
+						<Description>Сегмент авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="8b85d0f1-acb4-4e79-9ca3-ccbad0dd9bbb">
+						<Name>СтатистикаАвиабилетМаксимальный</Name>
+						<Code>000000056</Code>
+						<Description>Статистика авиабилет максимальный</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="e9b5ca12-5756-41c2-92f2-a4f99fdaeefd">
+						<Name>СтатистикаАвиабилетМинимальный</Name>
+						<Code>000000055</Code>
+						<Description>Статистика авиабилет минимальный</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="687c6db4-5532-4926-b869-70e984a7d86d">
+						<Name>ТаксыАвиабилета</Name>
+						<Code>000000048</Code>
+						<Description>Таксы авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f2a1c710-5ba3-11e8-9585-320018ec0000">
+						<Name>ШтрафЗаВозвратАвиабилета</Name>
+						<Code>000000017</Code>
+						<Description>Штраф за возврат авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="e68749c8-5ba3-11e8-9585-320018ec0000">
+						<Name>ШтрафЗаОбменАвиабилета</Name>
+						<Code>000000016</Code>
+						<Description>Штраф за обмен авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="0df12b8f-2377-4e6d-99f2-840b3071cdc1">
+				<Name>Аэроэкспрессы</Name>
+				<Code>000000028</Code>
+				<Description>Аэроэкспрессы</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="f4f339c1-0824-4659-9b15-83cae7b5da70">
+						<Name>Аэроэкспресс</Name>
+						<Code>000000029</Code>
+						<Description>Аэроэкспресс</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="f7597344-f006-4901-91bf-8675deea365e">
+				<Name>ВизовыеУслуги</Name>
+				<Code>000000031</Code>
+				<Description>Визовые услуги</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="41c71770-fb1a-4cac-9e2b-ff8aba3d58a1">
+						<Name>Виза</Name>
+						<Code>000000033</Code>
+						<Description>Виза</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="4b44bc05-e8c8-437e-ab2c-dfc34451b3ea">
+						<Name>ВизоваяУслуга</Name>
+						<Code>000000032</Code>
+						<Description>Визовая услуга</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="63f786b8-5b98-11e8-9585-320018ec0000">
+				<Name>Гостиницы</Name>
+				<Code>000000007</Code>
+				<Description>Гостиницы</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="c86561e8-1a7a-4b6b-a74a-67f9e87927de">
+						<Name>БронированиеПроживания</Name>
+						<Code>000000054</Code>
+						<Description>Бронирование проживания</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2d335001-8b38-4cc6-acb9-dc0cec3def0e">
+						<Name>ОтменаПроживания</Name>
+						<Code>000000023</Code>
+						<Description>Отмена проживания</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0faa66d0-5b9c-11e8-9585-320018ec0000">
+						<Name>ПозднийВыезд</Name>
+						<Code>000000009</Code>
+						<Description>Поздний выезд</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="532b3b0e-5b98-11e8-9585-320018ec0000">
+						<Name>Проживание</Name>
+						<Code>000000006</Code>
+						<Description>Проживание</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0693fa34-5b9c-11e8-9585-320018ec0000">
+						<Name>РаннийЗаезд</Name>
+						<Code>000000008</Code>
+						<Description>Ранний заезд</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ae312e61-f455-4061-bc27-4f354f4af8da">
+						<Name>СтатистикаПроживаниеМаксимальный</Name>
+						<Code>000000058</Code>
+						<Description>Статистика проживание максимальный</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0f4fbbee-4859-4b2c-9ff0-de79effaa65c">
+						<Name>СтатистикаПроживаниеМинимальный</Name>
+						<Code>000000057</Code>
+						<Description>Статистика проживание минимальный</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="20ba548a-5b9c-11e8-9585-320018ec0000">
+						<Name>ШтрафЗаОтменуПроживания</Name>
+						<Code>000000010</Code>
+						<Description>Штраф за отмену проживания</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="1f4c5ca8-5ba4-11e8-9585-320018ec0000">
+				<Name>ЖДБилеты</Name>
+				<Code>000000019</Code>
+				<Description>ЖДБилеты</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="394da1ac-5ba4-11e8-9585-320018ec0000">
+						<Name>ВозвратЖДБилета</Name>
+						<Code>000000021</Code>
+						<Description>Возврат ЖДБилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2b6e735e-5ba4-11e8-9585-320018ec0000">
+						<Name>ЖДБилет</Name>
+						<Code>000000020</Code>
+						<Description>ЖДБилет</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="228e6dc6-41c5-456f-852b-a93b345dc355">
+						<Name>СборПеревозчикаЗаВозврат</Name>
+						<Code>000000024</Code>
+						<Description>Сбор перевозчика за возврат</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="fb9dbdb2-7be4-418b-9aad-9ed611bdb7f6">
+						<Name>СборПоставщика</Name>
+						<Code>000000025</Code>
+						<Description>Сбор поставщика</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="1fb9a44f-0e33-4fa3-ba20-2d8f6408d089">
+						<Name>СервисныеУслугиПеревозчика</Name>
+						<Code>000000042</Code>
+						<Description>Сервисные услуги перевозчика</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ac392fb7-4d26-45a6-a1a0-e837bc49c535">
+						<Name>СервисныеУслугиПеревозчикаВозврат</Name>
+						<Code>000000043</Code>
+						<Description>Сервисные услуги перевозчика возврат</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="aacfb569-a309-4530-a21e-bffd942e07ab">
+						<Name>СтатистикаЖДБилетМаксимальный</Name>
+						<Code>000000060</Code>
+						<Description>Статистика ЖДБилет максимальный</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="bfd18871-ce83-4d1c-bbde-17722616e1f0">
+						<Name>СтатистикаЖДБилетМинимальный</Name>
+						<Code>000000059</Code>
+						<Description>Статистика ЖДБилет минимальный</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="07a1b366-315f-4468-b1db-b9b2ece195fa">
+				<Name>Прочее</Name>
+				<Code>000000045</Code>
+				<Description>Прочее</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="085bac65-2a20-4f24-88ab-f544bfdc4bfa">
+						<Name>АвансовыйОтчет</Name>
+						<Code>000000074</Code>
+						<Description>Авансовый отчет</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f939cd05-8909-4626-8968-53aab485a7a5">
+						<Name>БронированиеАвиабилета</Name>
+						<Code>000000046</Code>
+						<Description>Бронирование авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="08f8df03-5bbd-4fe9-8619-4a8c4abfc927">
+						<Name>ОтменаЖДБилета</Name>
+						<Code>000000061</Code>
+						<Description>Отмена ЖД Билета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="7e5e03e9-ec55-4b51-a2ea-c7b08d69fd86">
+						<Name>Штраф</Name>
+						<Code>000000071</Code>
+						<Description>Штраф</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="419caeb8-0ff2-4f43-9859-fc5113568cb9">
+				<Name>СервисныеСборы</Name>
+				<Code>000000036</Code>
+				<Description>Сервисные сборы</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="4812a6c3-a4fc-423c-a3fb-c0b5c719b350">
+						<Name>СервисныйСбор</Name>
+						<Code>000000037</Code>
+						<Description>Сервисный сбор</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2d6efa77-c57f-4134-a6b6-b7165fcdceb3">
+						<Name>СервисныйСборЗаАвиабилет</Name>
+						<Code>000000040</Code>
+						<Description>Сервисный сбор за авиабилет</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0371bc81-83c6-4e68-babf-9364c6333d8a">
+						<Name>СервисныйСборЗаЖДБилет</Name>
+						<Code>000000041</Code>
+						<Description>Сервисный сбор за ЖД Билет</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="05f19e1f-7cba-4c3f-bc4e-daa2805c9825">
+						<Name>СервисныйСборЗаОбменАвиабилета</Name>
+						<Code>000000044</Code>
+						<Description>Сервисный сбор за обмен авиабилета</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="fb4a5882-cbed-4e4b-a874-73f253008d86">
+				<Name>Страхования</Name>
+				<Code>000000034</Code>
+				<Description>Страхования</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="5a112208-653b-409a-a060-a58f58f7599e">
+						<Name>Страхование</Name>
+						<Code>000000035</Code>
+						<Description>Страхование</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="52452730-149e-4ae2-b263-c69d43822e98">
+				<Name>Трансферы</Name>
+				<Code>000000026</Code>
+				<Description>Трансферы</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="45f4f668-f056-488f-8fad-a343b70cd893">
+						<Name>БилетНаАвтобус</Name>
+						<Code>000000070</Code>
+						<Description>Билет на автобус</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="63d04d95-e009-4992-a8d6-6f8f713ea3b6">
+						<Name>ВозвратБилетаНаАвтобус</Name>
+						<Code>000000072</Code>
+						<Description>Возврат билета на автобус</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="4c8f9d47-16f5-44f8-9947-5b82f31226fe">
+						<Name>ВозвратТрансфера</Name>
+						<Code>000000073</Code>
+						<Description>Возврат трансфера</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b4b88450-4bdb-4fb4-ab35-c334b8b726a7">
+						<Name>ПодачаАвтомобиля</Name>
+						<Code>000000066</Code>
+						<Description>Подача автомобиля</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ff352477-07bc-4ea1-9b02-0f68879967b4">
+						<Name>Трансфер</Name>
+						<Code>000000027</Code>
+						<Description>Трансфер</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:CatalogRef.НоменклатураБТ</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="be8488ae-50f1-4eac-9c9c-26ed4c04192c">
+		<Name>БанковскийСчетОрганизацииПоУмолчанию</Name>
+		<Code>000000053</Code>
+		<Description>Банковский счет по умолчанию</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d2a80a7-2a53-4302-8670-3b4f9cf588e0">
+		<Name>ВерсияКонфигурацииДонора</Name>
+		<Code>000000002</Code>
+		<Description>Версия конфигурации донора</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>15</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b70178d-9981-42c7-97fe-dd9e8224f3f9">
+		<Name>ВремяМаксимальногоПростоя</Name>
+		<Code>000000050</Code>
+		<Description>Время максимального простоя (мин)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6c1d0eec-7f5a-41a1-b7a0-7b0c81d09256">
+		<Name>ВсеУслугиВЗаказеКлиентаБТБезНДС</Name>
+		<Code>000000067</Code>
+		<Description>Все услуги в заказе клиента БТ Без НДС</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f4a3daba-62f0-467a-af4b-4bab5af35a57">
+		<Name>ДатаЗакрытогоПериода</Name>
+		<Code>000000022</Code>
+		<Description>Дата закрытого периода</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="93bc0fe3-9cd2-4cd5-af9c-168c48d49b74">
+		<Name>ДокументОтраженияУчета</Name>
+		<Code>000000003</Code>
+		<Description>Документ отражения учета</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>255</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c654ca53-066b-4fb1-aea4-e9f2b31d462b">
+		<Name>ИспользоватьКоличествоКлиентаВУслуге</Name>
+		<Code>000000051</Code>
+		<Description>Использовать количество клиента в услуге</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="648d8175-07d2-485d-879f-21fc6fb50c0e">
+		<Name>КонфигурацияДонор</Name>
+		<Code>000000001</Code>
+		<Description>Конфигурация донор</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>255</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0fe110dc-21b1-4f15-a3c0-326d177fda3d">
+		<Name>ОрганизацияПоУмолчанию</Name>
+		<Code>000000052</Code>
+		<Description>Организация по умолчанию</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="18daa254-a510-426f-9a28-38471955dc9f">
+		<Name>ПереноситьСтавкуНДСКлиентаВУслугиПриФормированииСвязанныхУслуг</Name>
+		<Code>000000069</Code>
+		<Description>Переносить ставку НДСКлиента в услуги при формировании связанных услуг</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aee80a4e-a72b-4145-b4c3-360115a66705">
+		<Name>ПересчитыватьСуммуНДСвЗаказеКлиентаБТ</Name>
+		<Code>000000068</Code>
+		<Description>Пересчитывать сумму НДС в заказе клиента БТ</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4121f1f1-4560-4580-b803-acc39f041b18">
+		<Name>СистемныйАдминистратор</Name>
+		<Code>000000004</Code>
+		<Description>Системный администратор</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="33929d4c-0e79-4ea4-993e-faa6db7d1971">
+		<Name>СоздаватьХарактеристикиНоменклатуры</Name>
+		<Code>000000065</Code>
+		<Description>Создавать характеристики номенклатуры</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="83416219-4c70-4645-b4a4-10b549922faf">
+		<Name>ФормироватьСвязанныеУслугиНаКомиссии</Name>
+		<Code>000000075</Code>
+		<Description>Формировать связанные услуги на комиссии</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

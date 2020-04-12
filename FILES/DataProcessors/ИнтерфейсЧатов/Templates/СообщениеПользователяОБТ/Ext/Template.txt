@@ -1,0 +1,9 @@
+﻿                    <div class="ais_message">
+                        <div class="ais_message__foto ais_desctop" style="display: none;"></div>
+                        <div class="ais_message__box ais_desctop animated fadeIn ais_no-photo"
+                             style="animation-duration: 200ms;">[Сообщение]
+                        </div>
+                    </div>
+                    <div class="ais_time ais_desctop">
+                        <div>[ДатаВремя]</div>
+                    </div>

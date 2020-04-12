@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПровестиИЗакрыть" id="53">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.StandardCommand.PostAndClose</CommandName>
+				<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="54"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="55">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.StandardCommand.Write</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="56"/>
+			</Button>
+			<Button name="ФормаПровести" id="57">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.StandardCommand.Post</CommandName>
+				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="58"/>
+			</Button>
+			<Popup name="ПодменюСоздатьНаОсновании" id="59">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Создать на основании</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Создать на основании</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+				<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="60"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюСоздатьНаОснованииВажное" id="73">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Важное)</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Важное)</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="74"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюСоздатьНаОснованииОбычное" id="75">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Обычное)</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Обычное)</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="76"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюСоздатьНаОснованииСмТакже" id="77">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="78"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюПечать" id="61">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды печати</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="62"/>
+			</Popup>
+			<Popup name="ПодменюОтчеты" id="63">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отчеты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отчеты</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ОтчетыБТ</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="64"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюОтчетыВажное" id="65">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="66"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюОтчетыПерейти" id="67">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюОтчетыПерейтиРасширеннаяПодсказка" id="68"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюОтчетыСмТакже" id="69">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="70"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<ButtonGroup name="ФормаГлобальныеКоманды" id="71">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма глобальные команды</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма глобальные команды</v8:content>
+					</v8:item>
+				</ToolTip>
+				<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
+				<ExtendedTooltip name="ФормаГлобальныеКомандыРасширеннаяПодсказка" id="72"/>
+			</ButtonGroup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="ValueChoice">ВыборЗначения</Event>
+		<Event name="OnSaveDataInSettingsAtServer">ПриСохраненииДанныхВНастройкахНаСервере</Event>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="NewWriteProcessing">ОбработкаЗаписиНового</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="ExternalEvent">ВнешнееСобытие</Event>
+		<Event name="OnReopen">ПриПовторномОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="NavigationProcessing">ОбработкаПерехода</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="ActivationProcessing">ОбработкаАктивизации</Event>
+		<Event name="OnChangeDisplaySettings">ПриИзмененииПараметровЭкрана</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+		<Event name="URLProcessing">ОбработкаНавигационнойСсылки</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">ПередЗагрузкойДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="85">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="86"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="83">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаПоставщик" id="79">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поставщик</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа поставщик</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПоставщикРасширеннаяПодсказка" id="80"/>
+					<ChildItems>
+						<InputField name="Партнер" id="7">
+							<DataPath>Объект.Партнер</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Поставщик Партнер</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПартнерКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ПартнерРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Поставщик" id="10">
+							<DataPath>Объект.Поставщик</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Поставщик Контрагент</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПоставщикКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ДоговорПоставщика" id="13">
+							<DataPath>Объект.ДоговорПоставщика</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДоговорПоставщикаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ДоговорПоставщикаРасширеннаяПодсказка" id="15"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПокупатель" id="81">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Покупатель</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа покупатель</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПокупательРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<InputField name="Клиент" id="16">
+							<DataPath>Объект.Клиент</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Клиент Партнер</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КлиентКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="Контрагент" id="19">
+							<DataPath>Объект.Контрагент</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Клиент Контрагент</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КонтрагентКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ДоговорКонтрагента" id="22">
+							<DataPath>Объект.ДоговорКонтрагента</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДоговорКонтрагентаКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ДоговорКонтрагентаРасширеннаяПодсказка" id="24"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="КоммиссионныеУсловия" id="25">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.КоммиссионныеУсловия</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КоммиссионныеУсловияКонтекстноеМеню" id="26"/>
+			<AutoCommandBar name="КоммиссионныеУсловияКоманднаяПанель" id="27">
+				<ChildItems>
+					<Button name="КоммиссионныеУсловияЭкспертныйРежим" id="102">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.ЭкспертныйРежим</CommandName>
+						<Picture>
+							<xr:Ref>CommonPicture.ЭксперРежим</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="КоммиссионныеУсловияЭкспертныйРежимРасширеннаяПодсказка" id="103"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="КоммиссионныеУсловияРасширеннаяПодсказка" id="28"/>
+			<SearchStringAddition name="КоммиссионныеУсловияСтрокаПоиска" id="29">
+				<AdditionSource>
+					<Item>КоммиссионныеУсловия</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КоммиссионныеУсловияСтрокаПоискаКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="КоммиссионныеУсловияСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="КоммиссионныеУсловияСостояниеПросмотра" id="32">
+				<AdditionSource>
+					<Item>КоммиссионныеУсловия</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КоммиссионныеУсловияСостояниеПросмотраКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="КоммиссионныеУсловияСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="КоммиссионныеУсловияУправлениеПоиском" id="35">
+				<AdditionSource>
+					<Item>КоммиссионныеУсловия</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="КоммиссионныеУсловияУправлениеПоискомКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="КоммиссионныеУсловияУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="КоммиссионныеУсловияНомерСтроки" id="38">
+					<DataPath>Объект.КоммиссионныеУсловия.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияНомерСтрокиКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияНомерСтрокиРасширеннаяПодсказка" id="40"/>
+				</LabelField>
+				<CheckBoxField name="КоммиссионныеУсловияВПроцентах" id="44">
+					<DataPath>Объект.КоммиссионныеУсловия.ВПроцентах</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="КоммиссионныеУсловияВПроцентахКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияВПроцентахРасширеннаяПодсказка" id="46"/>
+				</CheckBoxField>
+				<InputField name="КоммиссионныеУсловияПредставлениеСвязаннойУслуги" id="104">
+					<DataPath>Объект.КоммиссионныеУсловия.ПредставлениеСвязаннойУслуги</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ChoiceButton>true</ChoiceButton>
+					<TextEdit>false</TextEdit>
+					<ContextMenu name="КоммиссионныеУсловияПредставлениеСвязаннойУслугиКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияПредставлениеСвязаннойУслугиРасширеннаяПодсказка" id="106"/>
+					<Events>
+						<Event name="StartChoice">КоммиссионныеУсловияПредставлениеСвязаннойУслугиНачалоВыбора</Event>
+						<Event name="Clearing">КоммиссионныеУсловияПредставлениеСвязаннойУслугиОчистка</Event>
+					</Events>
+				</InputField>
+				<InputField name="КоммиссионныеУсловияУсловие" id="41">
+					<DataPath>Объект.КоммиссионныеУсловия.Условие</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияУсловиеКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияУсловиеРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="КоммиссионныеУсловияПрименяетсяК" id="50">
+					<DataPath>Объект.КоммиссионныеУсловия.ПрименяетсяК</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияПрименяетсяККонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияПрименяетсяКРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="КоммиссионныеУсловияЦена" id="87">
+					<DataPath>Объект.КоммиссионныеУсловия.Цена</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияЦенаКонтекстноеМеню" id="88"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияЦенаРасширеннаяПодсказка" id="89"/>
+					<Events>
+						<Event name="OnChange">КоммиссионныеУсловияЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="КоммиссионныеУсловияСтавкаНДС" id="90">
+					<DataPath>Объект.КоммиссионныеУсловия.СтавкаНДС</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияСтавкаНДСКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияСтавкаНДСРасширеннаяПодсказка" id="92"/>
+					<Events>
+						<Event name="OnChange">КоммиссионныеУсловияЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="КоммиссионныеУсловияСуммаНДС" id="93">
+					<DataPath>Объект.КоммиссионныеУсловия.СуммаНДС</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияСуммаНДСКонтекстноеМеню" id="94"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияСуммаНДСРасширеннаяПодсказка" id="95"/>
+				</InputField>
+				<InputField name="КоммиссионныеУсловияСуммаКомиссии" id="47">
+					<DataPath>Объект.КоммиссионныеУсловия.СуммаКомиссии</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммиссионныеУсловияСуммаКомиссииКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="КоммиссионныеУсловияСуммаКомиссииРасширеннаяПодсказка" id="49"/>
+					<Events>
+						<Event name="OnChange">КоммиссионныеУсловияСуммаКомиссииПриИзменении</Event>
+					</Events>
+				</InputField>
+				<ColumnGroup name="КоммиссионныеУсловияГруппа1" id="107">
+					<ExtendedTooltip name="КоммиссионныеУсловияГруппа1РасширеннаяПодсказка" id="108"/>
+					<ChildItems>
+						<InputField name="КоммиссионныеУсловияНеМенееЧем" id="96">
+							<DataPath>Объект.КоммиссионныеУсловия.НеМенееЧем</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КоммиссионныеУсловияНеМенееЧемКонтекстноеМеню" id="97"/>
+							<ExtendedTooltip name="КоммиссионныеУсловияНеМенееЧемРасширеннаяПодсказка" id="98"/>
+						</InputField>
+						<InputField name="КоммиссионныеУсловияНеБолееЧем" id="99">
+							<DataPath>Объект.КоммиссионныеУсловия.НеБолееЧем</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КоммиссионныеУсловияНеБолееЧемКонтекстноеМеню" id="100"/>
+							<ExtendedTooltip name="КоммиссионныеУсловияНеБолееЧемРасширеннаяПодсказка" id="101"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.КомиссииПоставщиков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>КоммиссионныеУсловияНеМенееЧем</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КоммиссионныеУсловияНеБолееЧем</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.КоммиссионныеУсловия.ВПроцентах</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Только для процентов</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ЭкспертныйРежим" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспертный режим</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспертный режим</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЭкспертныйРежим</Action>
+		</Command>
+	</Commands>
+</Form>

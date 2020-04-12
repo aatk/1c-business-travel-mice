@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="655c08bb-abec-4839-bfb3-3ed10ad1f766">
+		<Name>OBTBtrip</Name>
+		<Code>000000002</Code>
+		<Description>OBT Btrip</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="588e86b0-66b5-4dca-b385-55fb446e2b21">
+		<Name>ReportsBtrip</Name>
+		<Code>000000001</Code>
+		<Description>Reports btrip</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

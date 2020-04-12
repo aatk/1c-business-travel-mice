@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="006d39a1-e4b4-4b3b-9898-aa9b0839bd82">
+		<Name>ЗагрузкиУслугV2</Name>
+		<Code>000000033</Code>
+		<Description>Загрузки услуг v2</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="180700f5-4e1a-4b1b-81ca-d1be8fa1ec24">
+				<Name>ВыполнитьВыгрузкуОбъектаV2</Name>
+				<Code>000000044</Code>
+				<Description>Выполнить выгрузку объекта v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="07d6b0a7-e381-4222-8e41-6a7b4ab539eb">
+				<Name>ВыполнитьДозагрузкуV2</Name>
+				<Code>000000042</Code>
+				<Description>Выполнить дозагрузку v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e35be575-4c5a-4982-a447-aaf912867372">
+				<Name>ГородВМестеV2</Name>
+				<Code>000000036</Code>
+				<Description>Город в месте v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3f428c26-1b6e-4d1b-b967-875bd3969e55">
+				<Name>МассивСтрокВТекстV2</Name>
+				<Code>000000045</Code>
+				<Description>Массив строк в текст v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="00a20e50-0157-4096-8937-00126127ee68">
+				<Name>НайтиИлиСоздатьКонтрагентаV2</Name>
+				<Code>000000041</Code>
+				<Description>Найти или создать контрагента v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="70f771c9-ef95-478d-8e9e-711d72d7d62f">
+				<Name>ОтправитьЗапросНаСерверБТV2</Name>
+				<Code>000000046</Code>
+				<Description>Отправить запрос на сервер БТV2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ca21b2c6-15f6-46d1-861a-496f8445b3e8">
+				<Name>СоздатьЗаказИзКорзиныИЗаказКомандируемогоV2</Name>
+				<Code>000000038</Code>
+				<Description>Создать заказ из корзины и заказ командируемого v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d3b1633b-90b3-485b-9ee3-80c477d97bf9">
+				<Name>СоздатьЗаказКлиентаБТV2</Name>
+				<Code>000000040</Code>
+				<Description>Создать заказ клиента БТV2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7246ac6b-3e44-412f-bab9-9c417559a313">
+				<Name>СоздатьЗаказКомандируемогоV2</Name>
+				<Code>000000039</Code>
+				<Description>Создать заказ командируемого v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="200a1b2a-c800-4706-8277-a767f412091a">
+				<Name>СтранаВМестеV2</Name>
+				<Code>000000037</Code>
+				<Description>Страна в месте v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="be5bb542-321a-4b9f-9416-a33c3911f4b1">
+				<Name>СформироватьМаршрутV2</Name>
+				<Code>000000035</Code>
+				<Description>Сформировать маршрут v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f74d5104-92e7-47d0-8ba1-ff0b7bcd87d1">
+				<Name>СформироватьСегментыV2</Name>
+				<Code>000000034</Code>
+				<Description>Сформировать сегменты v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2504b47a-0659-4904-95b1-1a2f78c5bb3a">
+				<Name>УстановитьСтатусУслугиБТV2</Name>
+				<Code>000000043</Code>
+				<Description>Установить статус услуги БТV2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e979363e-1d22-405c-86d5-8bdd6feeeae6">
+				<Name>ХарактеристикаМестаV2</Name>
+				<Code>000000047</Code>
+				<Description>Характеристика места v2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="f4c345a9-bbf5-4a10-8667-6778570a8d23">
+		<Name>ЗагрузкиУслугV3</Name>
+		<Code>000000016</Code>
+		<Description>Загрузки услуг v3</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="f15278b0-d7d0-4a75-8c66-2c6da23fc729">
+				<Name>События</Name>
+				<Code>000000028</Code>
+				<Description>События</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="c905cf9a-c8f6-40fe-9d2a-7c824681979e">
+						<Name>НажатьКнопкуЗаполнитьСвязанныеУслуги</Name>
+						<Code>000000030</Code>
+						<Description>Нажать кнопку заполнить связанные услуги</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="835da8f6-9da5-4d6b-96b5-ebbbbb710a55">
+						<Name>НажатьКнопкуСформироватьКомиссииВУслуге</Name>
+						<Code>000000027</Code>
+						<Description>Нажать кнопку сформировать комиссии в услуге</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="881d1ee8-a0d5-4e78-b792-ee035989680f">
+						<Name>НажатьКнопкуСформироватьНаименованиеУслуги</Name>
+						<Code>000000029</Code>
+						<Description>Нажать кнопку сформировать наименование услуги</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b3fda65e-c368-4451-ad29-d23a53e20e2b">
+						<Name>ОтменитьУслугиПродажиИОтмены</Name>
+						<Code>000000053</Code>
+						<Description>Отменить услуги продажи и отмены</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="40730339-51c5-4d97-81a8-d1bd041c046d">
+						<Name>СкопироватьБилетПродажи</Name>
+						<Code>000000052</Code>
+						<Description>Скопировать билет продажи</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="8312cadf-635a-4283-8cea-299b75137e5c">
+				<Name>ДатаV3</Name>
+				<Code>000000026</Code>
+				<Description>Дата v3</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="80f20681-df0b-4c3c-961b-018ae38d3e6b">
+				<Name>ЗаполнитьКомандированных</Name>
+				<Code>000000017</Code>
+				<Description>Заполнить командированных</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="88004777-1000-4777-8192-3d577bf634c8">
+				<Name>ЗаполнитьЭкстраПоля</Name>
+				<Code>000000018</Code>
+				<Description>Заполнить экстра поля</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7fbe57bc-67a3-482a-bc73-c561d5e73ea4">
+				<Name>НайтиКонтрагента</Name>
+				<Code>000000020</Code>
+				<Description>Найти контрагента</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d708acb0-8605-40d9-9f04-514b58bbdb9b">
+				<Name>НайтиКонтрагентаПоХарактеристике</Name>
+				<Code>000000048</Code>
+				<Description>Найти контрагента по характеристике</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="86082c70-cd81-4941-906d-1da660f7e802">
+				<Name>НайтиМестоV3</Name>
+				<Code>000000025</Code>
+				<Description>Найти место v3</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="26352c14-26f9-4a88-8c2c-81e4a48abd1b">
+				<Name>НайтиНоменклатуруБТ</Name>
+				<Code>000000019</Code>
+				<Description>Найти номенклатуру БТ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="725e8d0b-e535-42e8-ae9c-a070614076ad">
+				<Name>НайтиПартнера</Name>
+				<Code>000000051</Code>
+				<Description>Найти партнера</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7df98c04-591e-412b-9044-eacd149c15a2">
+				<Name>НайтиПользователя</Name>
+				<Code>000000056</Code>
+				<Description>Найти пользователя</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0443b1fb-069c-472d-ad09-a97a241ba4e3">
+				<Name>НайтиСтавкуНДС</Name>
+				<Code>000000021</Code>
+				<Description>Найти ставку НДС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ee86a39a-2167-423f-8ac2-cd675208c89c">
+				<Name>НайтиТипДочернейУслуги</Name>
+				<Code>000000050</Code>
+				<Description>Найти тип дочерней услуги</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f24cde7a-524e-4a9b-9fd3-e2dc3d89c88b">
+				<Name>НайтиУслугуV3</Name>
+				<Code>000000023</Code>
+				<Description>Найти услугу v3</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0f1474c2-367b-4347-9f3b-8c728e7aea42">
+				<Name>НайтиУслугуПоНомеруБилета</Name>
+				<Code>000000024</Code>
+				<Description>Найти услугу по номеру билета</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a7fb42c1-f296-4a65-a8a0-ee243dee1940">
+				<Name>СоздатьСписокДопУслуг</Name>
+				<Code>000000022</Code>
+				<Description>Создать список доп услуг</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="0e0a5954-8a26-4043-b1fa-e00c37e31490">
+		<Name>ФункцииДляФормированияОписанияНоменклатуры</Name>
+		<Code>000000015</Code>
+		<Description>Функции для формирования описания номенклатуры</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="7f5e9936-45fb-4f5b-b4c1-8badd3d2ff8c">
+				<Name>ДатаВремяОкончанияУслугиВddMMyyyy</Name>
+				<Code>000000002</Code>
+				<Description>ДатаВремяОкончанияУслуги в dd.MM.yyyy</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c0e9d516-656f-4d39-bd99-e07ff29accc7">
+				<Name>ДатаВремяОкончанияУслугиВddMMyyyyHHmm</Name>
+				<Code>000000003</Code>
+				<Description>ДатаВремяОкончанияУслуги в dd.MM.yyyy HH:mm</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="529a7421-ef08-405f-9b91-9a787b2c20fa">
+				<Name>ДатаНачалаУслугиВddMMyyyy</Name>
+				<Code>000000004</Code>
+				<Description>ДатаНачалаУслуги в dd.MM.yyyy</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="eb6529e5-11c7-40e7-bf53-c22e8b6b9f5c">
+				<Name>ДатаНачалаУслугиВddMMyyyyHHmm</Name>
+				<Code>000000005</Code>
+				<Description>ДатаНачалаУслуги в dd.MM.yyyy HH:mm</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="beab760b-f51f-42ee-a8f6-12bcf1002e28">
+				<Name>НомерБилетаВладельца</Name>
+				<Code>000000006</Code>
+				<Description>Номер билета Владельца</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="604b027c-0c8c-4a34-a7ad-8288193aa6bd">
+				<Name>НомерБилетаПродажи</Name>
+				<Code>000000007</Code>
+				<Description>Номер билета Продажи</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ae820f7f-cbc5-4586-adb0-89202ea4f7f4">
+				<Name>НомерУслуги</Name>
+				<Code>000000008</Code>
+				<Description>Номер услуги</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="26d31df4-b275-4cc4-94a9-6fbd62a83504">
+				<Name>НомерУслугиВладельца</Name>
+				<Code>000000009</Code>
+				<Description>Номер услуги Владельца</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a0f7a998-0089-47fc-a311-2b563951bc05">
+				<Name>НомерУслугиПродажи</Name>
+				<Code>000000010</Code>
+				<Description>Номер услуги продажи</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="816766e2-6651-47aa-a989-1f9b3ba8b8af">
+				<Name>СклонениеСуток</Name>
+				<Code>000000011</Code>
+				<Description>Склонение суток</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1cb7f3ed-345f-4c27-9c82-09c12e93ccd8">
+				<Name>СписокКомандируемыхВУслуге</Name>
+				<Code>000000001</Code>
+				<Description>Список командируемых в услуге</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1b7c1b2e-f222-4da4-be49-91e209ee1398">
+				<Name>СписокКомандируемыхВУслугеENG</Name>
+				<Code>000000054</Code>
+				<Description>Список командируемых в услуге ENG</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a5afc576-87eb-458e-b8a4-2b5513324173">
+				<Name>СтранаПрибытия</Name>
+				<Code>000000012</Code>
+				<Description>Страна прибытия</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a18883c4-717b-4331-8437-c8f10efabb42">
+				<Name>СформироватьОписаниеУслугиВладельца</Name>
+				<Code>000000013</Code>
+				<Description>Сформировать описание услуги владельца</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c85f9ca4-2cc8-4675-904e-50d9a7f7a2e8">
+				<Name>СформироватьОписаниеУслугиПрименения</Name>
+				<Code>000000014</Code>
+				<Description>Сформировать описание услуги применения</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="da142444-3c39-41ec-8878-3d7b49d81990">
+		<Name>ФункцииСобытийБТ</Name>
+		<Code>000000031</Code>
+		<Description>Функции событий БТ</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="e45c2072-5737-49a4-b5f6-52b51c922877">
+				<Name>АвтозаполнениеДокументов</Name>
+				<Code>000000055</Code>
+				<Description>Автозаполнение документов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ca10c6ff-1a55-49ce-afec-e97192691a98">
+				<Name>ЗапретИзмененияЗначенияХарактеристики</Name>
+				<Code>000000032</Code>
+				<Description>Запрет изменения значения характеристики</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f200a9a1-2b95-4873-a14a-fd0aa8a7cdba">
+				<Name>СформироватьСтрокуПоШаблону</Name>
+				<Code>000000049</Code>
+				<Description>Сформировать строку по шаблону</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

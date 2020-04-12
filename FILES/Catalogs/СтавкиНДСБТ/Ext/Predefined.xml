@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="ddf7593d-0b38-4cac-ac2d-f580dd63be12">
+		<Name>БезНДС</Name>
+		<Code>000000004</Code>
+		<Description>Без НДС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8f3de241-2eca-41c6-9925-5b390c7f6c41">
+		<Name>НДС0</Name>
+		<Code>000000003</Code>
+		<Description>НДС 0</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="45aa1404-477e-4dc7-ac21-5f502d4d6112">
+		<Name>НДС10110</Name>
+		<Code>000000005</Code>
+		<Description>НДС 10/110</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fdfefc7b-16b4-4449-9534-37e404c08747">
+		<Name>НДС10</Name>
+		<Code>000000001</Code>
+		<Description>НДС 10%</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1aed9cac-567e-4c1a-b36c-93ac3f4fe49c">
+		<Name>НДС18</Name>
+		<Code>000000007</Code>
+		<Description>НДС 18</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="013b743d-e6d1-4d49-aa1c-834db9a86d90">
+		<Name>НДС18118</Name>
+		<Code>000000008</Code>
+		<Description>НДС 18/118</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c8f2b027-4e01-44c5-94bd-310b21a289f8">
+		<Name>НДС20</Name>
+		<Code>000000002</Code>
+		<Description>НДС 20</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fff576ef-640c-466d-b83f-5c91d70577b3">
+		<Name>НДС20120</Name>
+		<Code>000000006</Code>
+		<Description>НДС 20/120</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

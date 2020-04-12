@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="f9941184-0460-47cb-bee4-068e727fd154">
+		<Properties>
+			<Name>МаркетПлейс</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маркет плейс</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДополнительныйФункционал</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МаркетПлейс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркетПлейсВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркетПлейсПовтИспользование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркетПлейсКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыДополнительногоФункционала</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДополнительныеОтчетыИПечатныеФормы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркетПлейсПовтИспользованиеКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркетПлейсСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗагрузкиВОбъекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркетПлейсКлиентСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Рубль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Поддержка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Расшарено</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗагрузкаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДополнительныеКомандыВводНаОсновании</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПереопределениеДействий</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

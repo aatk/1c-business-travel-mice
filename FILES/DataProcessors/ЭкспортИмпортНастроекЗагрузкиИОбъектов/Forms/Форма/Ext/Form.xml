@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="26">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ToolTipBackColor</BackColor>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<UsualGroup name="Группа5" id="28">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<Button name="ФормаЭкспортНастроек" id="4">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЭкспортНастроек</CommandName>
+							<ExtendedTooltip name="ФормаЭкспортНастроекРасширеннаяПодсказка" id="5"/>
+						</Button>
+						<Button name="ФормаИмпортНастроек" id="6">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ИмпортНастроек</CommandName>
+							<ExtendedTooltip name="ФормаИмпортНастроекРасширеннаяПодсказка" id="7"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="НастройкаЗагрузки" id="1">
+					<DataPath>Объект.НастройкаЗагрузки</DataPath>
+					<ContextMenu name="НастройкаЗагрузкиКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НастройкаЗагрузкиРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<UsualGroup name="Группа1" id="10">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="11"/>
+					<ChildItems>
+						<Button name="ИмпортКаталогаСНастройками" id="8">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ИмпортКаталогаСНастройками</CommandName>
+							<ExtendedTooltip name="ИмпортКаталогаСНастройкамиРасширеннаяПодсказка" id="9"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="24">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ToolTipBackColor</BackColor>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+				<InputField name="СписокИсключений" id="30">
+					<DataPath>Объект.СписокИсключений</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>6</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="СписокИсключенийКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СписокИсключенийРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<UsualGroup name="Группа2" id="15">
+					<Group>Horizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<InputField name="СсылкаНаЭлемент" id="12">
+							<DataPath>Объект.СсылкаНаЭлемент</DataPath>
+							<ContextMenu name="СсылкаНаЭлементКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="СсылкаНаЭлементРасширеннаяПодсказка" id="14"/>
+						</InputField>
+						<Button name="ПолучитьГУИД" id="17">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПолучитьГУИД</CommandName>
+							<ExtendedTooltip name="ПолучитьГУИДРасширеннаяПодсказка" id="18"/>
+						</Button>
+						<InputField name="ГУИД" id="19">
+							<DataPath>Объект.ГУИД</DataPath>
+							<ContextMenu name="ГУИДКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ГУИДРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<Button name="ФормаКоманда1" id="22">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПолучитьНастройкуСсылки</CommandName>
+					<ExtendedTooltip name="ФормаКоманда1РасширеннаяПодсказка" id="23"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЭкспортИмпортНастроекЗагрузкиИОбъектов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЭкспортНастроек" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспорт настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспорт настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.LevelUp</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЭкспортНастроек</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ИмпортНастроек" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.LevelDown</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ИмпортНастроек</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ИмпортКаталогаСНастройками" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт каталога с настройками</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт каталога с настройками</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИмпортКаталогаСНастройками</Action>
+		</Command>
+		<Command name="ПолучитьГУИД" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить ГУИД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить ГУИД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ChooseType</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПолучитьГУИД</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ПолучитьНастройкуСсылки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить настройку ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить настройку ссылки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда1</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<Pages name="Группа1" id="5">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<Page name="Группа2" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>По умолчанию</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<Button name="ЗаполнитьКлючиХарактеристик" id="1">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьКлючиХарактеристик</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>1. Заполнить ключи характеристик</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗаполнитьКлючиХарактеристикРасширеннаяПодсказка" id="2"/>
+						</Button>
+						<Button name="ЗагрузитьМестаИзКлассификатора" id="3">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗагрузитьМестаИзКлассификатора</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>2. Загрузить места из классификатора</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗагрузитьМестаИзКлассификатораРасширеннаяПодсказка" id="4"/>
+						</Button>
+						<Button name="ЗаполнитьСтавкиНДС" id="15">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьСтавкиНДС</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>3. Заполнить ставки НДС</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗаполнитьСтавкиНДСРасширеннаяПодсказка" id="16"/>
+						</Button>
+						<Button name="ЗаполнитьПредопределенныеФункции" id="17">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьПредопределенныеФункции</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>4. Заполнить предопределенные функции</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗаполнитьПредопределенныеФункцииРасширеннаяПодсказка" id="18"/>
+						</Button>
+						<Button name="ЗаполнитьПредопределенныеХарактеристикиНоменклатуры" id="19">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьПредопределенныеХарактеристикиНоменклатуры</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>5. Заполнить предопределенные характеристики номенклатуры</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗаполнитьПредопределенныеХарактеристикиНоменклатурыРасширеннаяПодсказка" id="20"/>
+						</Button>
+						<Button name="ЗаполнитьВидыНоменклатур" id="47">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьВидыНоменклатур</CommandName>
+							<ExtendedTooltip name="ЗаполнитьВидыНоменклатурРасширеннаяПодсказка" id="48"/>
+						</Button>
+						<Button name="ЗаполнитьНоменклатурыБТ" id="25">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьНоменклатурыБТ</CommandName>
+							<ExtendedTooltip name="ЗаполнитьНоменклатурыБТРасширеннаяПодсказка" id="26"/>
+						</Button>
+						<Button name="ЗаполнитьСистемныеХарактеристики" id="21">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьСистемныеХарактеристики</CommandName>
+							<ExtendedTooltip name="ЗаполнитьСистемныеХарактеристикиРасширеннаяПодсказка" id="22"/>
+						</Button>
+						<Button name="СоздатьОбработчикиСобытия" id="23">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СоздатьОбработчикиСобытия</CommandName>
+							<ExtendedTooltip name="СоздатьОбработчикиСобытияРасширеннаяПодсказка" id="24"/>
+						</Button>
+						<Button name="ЗаполнитьОписанияНоменклатурыБТ" id="27">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнитьОписанияНоменклатурыБТ</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>9. Заполнить описания номенклатуры БТ</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗаполнитьОписанияНоменклатурыБТРасширеннаяПодсказка" id="28"/>
+						</Button>
+						<Button name="ОбновитьИдентификаторы" id="31">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ОбновитьИдентификаторы</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>10. Обновить идентификаторы</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ОбновитьИдентификаторыРасширеннаяПодсказка" id="32"/>
+						</Button>
+						<Button name="НормализацияМП" id="39">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.НормализацияМП</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>11. Нормализация событий МаркетПлейс</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="НормализацияМПРасширеннаяПодсказка" id="40"/>
+						</Button>
+						<Button name="ЗаполнениеВУслугахТипаДочернейУслуги" id="41">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗаполнениеВУслугахТипаДочернейУслуги</CommandName>
+							<ExtendedTooltip name="ЗаполнениеВУслугахТипаДочернейУслугиРасширеннаяПодсказка" id="42"/>
+						</Button>
+						<Button name="ЗагрузитьМестаИзКлассификатора_ЖД" id="43">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗагрузитьМестаИзКлассификатора_ЖД</CommandName>
+							<ExtendedTooltip name="ЗагрузитьМестаИзКлассификатора_ЖДРасширеннаяПодсказка" id="44"/>
+						</Button>
+						<Button name="ЗагрузитьИзКлассификатора_Авиакомпании" id="45">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ЗагрузитьИзКлассификатора_Авиакомпании</CommandName>
+							<ExtendedTooltip name="ЗагрузитьИзКлассификатора_АвиакомпанииРасширеннаяПодсказка" id="46"/>
+						</Button>
+						<Button name="ВыполнитьПолнуюЗагрузку" id="29">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыполнитьПолнуюЗагрузку</CommandName>
+							<ExtendedTooltip name="ВыполнитьПолнуюЗагрузкуРасширеннаяПодсказка" id="30"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="9">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление V2 на V3</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<Button name="ПереходV2вV3" id="11">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПереходV2вV3</CommandName>
+							<ExtendedTooltip name="ПереходV2вV3РасширеннаяПодсказка" id="12"/>
+						</Button>
+						<Button name="ИсправитьОшибки" id="13">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ИсправитьОшибки</CommandName>
+							<ExtendedTooltip name="ИсправитьОшибкиРасширеннаяПодсказка" id="14"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="КопированиеРеквизитовУТ" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Копирование реквизитов УТ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Копирование реквизитов УТ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КопированиеРеквизитовУТРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<Button name="СкопироватьРеквизитыОрганизаций" id="35">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СкопироватьРеквизитыОрганизаций</CommandName>
+							<ExtendedTooltip name="СкопироватьРеквизитыОрганизацийРасширеннаяПодсказка" id="36"/>
+						</Button>
+						<Button name="СкопироватьРеквизитыКонтрагентов" id="37">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СкопироватьРеквизитыКонтрагентов</CommandName>
+							<ExtendedTooltip name="СкопироватьРеквизитыКонтрагентовРасширеннаяПодсказка" id="38"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПомощникПервогоЗапуска</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьКлючиХарактеристик" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить ключи характеристик</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить ключи характеристик</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьКлючиХарактеристик</Action>
+		</Command>
+		<Command name="ЗагрузитьМестаИзКлассификатора" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить места из классификатора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить места из классификатора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьМестаИзКлассификатора</Action>
+		</Command>
+		<Command name="ПереходV2вV3" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переход v2 в v3</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переход v2в v3</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПереходV2вV3</Action>
+		</Command>
+		<Command name="ИсправитьОшибки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить ошибки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсправитьОшибки</Action>
+		</Command>
+		<Command name="ЗаполнитьСтавкиНДС" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить ставки НДС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить ставки НДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьСтавкиНДС</Action>
+		</Command>
+		<Command name="ЗаполнитьПредопределенныеФункции" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить предопределенные функции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить предопределенные функции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПредопределенныеФункции</Action>
+		</Command>
+		<Command name="ЗаполнитьПредопределенныеХарактеристикиНоменклатуры" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить предопределенные характеристики номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить предопределенные характеристики номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПредопределенныеХарактеристикиНоменклатуры</Action>
+		</Command>
+		<Command name="ЗаполнитьСистемныеХарактеристики" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>7. Заполнить системные характеристики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить системные характеристики</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьСистемныеХарактеристики</Action>
+		</Command>
+		<Command name="СоздатьОбработчикиСобытия" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>8. Заполнить обработчики события</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать обработчики события</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьОбработчикиСобытия</Action>
+		</Command>
+		<Command name="ЗаполнитьНоменклатурыБТ" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>6.2 Заполнить номенклатуры БТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить номенклатуры БТ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьНоменклатурыБТ</Action>
+		</Command>
+		<Command name="ЗаполнитьОписанияНоменклатурыБТ" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить описания номенклатуры БТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить описания номенклатуры БТ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьОписанияНоменклатурыБТ</Action>
+		</Command>
+		<Command name="ВыполнитьПолнуюЗагрузку" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить полную загрузку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить полную загрузку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьПолнуюЗагрузку</Action>
+		</Command>
+		<Command name="ОбновитьИдентификаторы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить идентификаторы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить идентификаторы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьИдентификаторы</Action>
+		</Command>
+		<Command name="СкопироватьРеквизитыОрганизаций" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать реквизиты организаций</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать реквизиты организаций</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкопироватьРеквизитыОрганизаций</Action>
+		</Command>
+		<Command name="СкопироватьРеквизитыКонтрагентов" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать реквизиты контрагентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать реквизиты организаций</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкопироватьРеквизитыКонтрагентов</Action>
+		</Command>
+		<Command name="НормализацияМП" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нормализация событий МаркетПлейс</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нормализация МП</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НормализацияМП</Action>
+		</Command>
+		<Command name="ЗаполнениеВУслугахТипаДочернейУслуги" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>12. Заполнение в услугах типа дочерней услуги</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнение в услугах типа дочерней услуги</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнениеВУслугахТипаДочернейУслуги</Action>
+		</Command>
+		<Command name="ЗагрузитьМестаИзКлассификатора_ЖД" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>13. Загрузить ЖД станции из классификатора </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить места из классификатора ЖД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьМестаИзКлассификатора_ЖД</Action>
+		</Command>
+		<Command name="ЗагрузитьИзКлассификатора_Авиакомпании" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>14. Загрузить авиакомпании из классификатора </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить места из классификатора ЖД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьИзКлассификатора_Авиакомпании</Action>
+		</Command>
+		<Command name="ЗаполнитьВидыНоменклатур" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>6.1 Заполнить Виды Номенклатур УТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить виды номенклатур</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьВидыНоменклатур</Action>
+		</Command>
+	</Commands>
+</Form>

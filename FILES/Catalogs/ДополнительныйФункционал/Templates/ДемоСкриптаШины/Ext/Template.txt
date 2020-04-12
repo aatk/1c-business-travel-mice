@@ -1,0 +1,38 @@
+﻿<?php
+
+/*
+*		Вызов реализуется через подключение Сервер/ИмяМодуля/ИмяМетода/ОстальныеПараметры
+*       Если передается входящее тело, то его можно получить через $this->phpinput
+*
+*/
+
+class %ex_component% extends ex_component
+{
+
+    public function __construct($metod = "")
+    {
+        parent::__construct($metod);
+    }
+
+    public function CreateDB()
+    {
+        /* Описание таблиц для работы с пользователями*/
+        /*
+        $info["test"] = array(
+            "id" => array('type' => 'int(11)', 'null' => 'NOT NULL', 'inc' => true),
+            "test" => array('type' => 'varchar(50)', 'null' => 'NOT NULL')
+        );
+        $res = $this->create($this->connectionInfo['database_type'], $info);
+        */
+    }
+
+    public function InstallModule() {
+        /* Заполнение таблиц для работы с пользователями*/
+    }
+
+    public function test($param1) {
+        return $param1;
+    }
+}
+
+?>

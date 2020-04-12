@@ -1,0 +1,9 @@
+﻿                    <div class="ais_message-me animated fadeIn">
+                        <div class="ais_message-me__box ais_desctop">[Сообщение]
+                        </div>
+                        <div class="ais_message-me__foto ais_desctop"></div>
+                    </div>
+                    <div class="ais_time__me ais_desctop"><img class="ais_time__items aisimg"
+                                                               src="https://dev-aisales.ru/webchat/images/items.png">
+                        <div>[ДатаВремя]</div>
+                    </div>

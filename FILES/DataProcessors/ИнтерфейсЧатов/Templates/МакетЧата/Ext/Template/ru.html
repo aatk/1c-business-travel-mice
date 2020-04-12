@@ -1,0 +1,530 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><style>
+        img.wp-smiley, img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -.1em !important;
+            background: 0 0 !important;
+            padding: 0 !important;
+        }
+
+        .ais_main {
+            background: url(../images/back.jpg) repeat
+        }
+
+        .ais_main {
+            height: 100%;
+            overflow: hidden
+        }
+
+        .aisimg {
+            pointer-events: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        .ais_message-container {
+            overflow: hidden;
+            flex-direction: column;
+            flex-grow: 1;
+            display: flex;
+            box-sizing: border-box;
+            height: 100%;
+            padding-bottom: 30px
+        }
+
+        .ais_no-photo {
+            margin-left: 73px
+        }
+
+        .ais_main {
+            flex-direction: column;
+            height: 100%;
+            flex-grow: 1;
+            overflow-x: hidden;
+            display: flex;
+            padding-top: 20px;
+            box-sizing: border-box
+        }
+
+        .ais_footer {
+            margin: auto auto 10px;
+            color: #777
+        }
+
+        .ais_footer-content {
+            margin: 0 auto auto auto;
+            width: 650px;
+            font-size: 14px;
+            white-space: nowrap;
+            color: #888;
+            text-align: center;
+            font-family: Graphik
+        }
+
+        .ais_footer-content a {
+            text-decoration: none;
+            color: #55e
+        }
+
+        .ais_footer-content a:hover {
+            text-decoration: underline
+        }
+
+        .ais_message-container__box {
+            overflow-y: scroll;
+            overflow-x: hidden;
+            max-height: 100%;
+            flex-direction: column;
+            flex-grow: 1;
+            box-sizing: border-box
+        }
+
+        .ais_wrapper__desctop {
+            width: 760px;
+            margin: 0 auto;
+            font-family: Graphik;
+            position: relative;
+            flex-grow: 1;
+            flex-direction: column;
+            box-sizing: border-box;
+            display: flex
+        }
+
+        .ais_wrapper {
+            width: 350px;
+            margin: 0 auto;
+            font-family: Graphik;
+            position: relative
+        }
+
+        .ais_time {
+            color: #9c9c9c;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            font-size: 11px;
+            margin-left: 35px;
+            margin-bottom: 10px
+        }
+
+        .ais_time__items {
+            width: 17px;
+            height: 9px;
+            margin-right: 3px
+        }
+
+        .ais_send__input {
+            background: #f7f7f7;
+            border-radius: 40px;
+            border: 0;
+            margin-right: 10px;
+            height: 30px;
+            width: 315px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            color: #c9c9c9;
+            font-size: 15px
+        }
+
+        .ais_message-me__box.no-border {
+            border-radius: 15px 2px 2px 15px
+        }
+
+        .ais_message-me__box {
+            background: #d1edf2;
+            color: #0c6778;
+            font-size: 14px;
+            max-width: 210px;
+            line-height: 18px;
+            padding: 12px 12px 12px 12px;
+            box-sizing: border-box;
+            border-radius: 15px 15px 2px 15px
+        }
+
+        .ais_time__me {
+            color: #9c9c9c;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            font-size: 11px;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            margin-left: 0;
+            margin-right: 35px;
+            margin-bottom: 10px
+        }
+
+        .ais_time__me.ais_desctop {
+            margin-right: 73px;
+            font-size: 14px
+        }
+
+        .ais_time.ais_desctop {
+            margin-left: 73px;
+            font-size: 14px
+        }
+
+        .ais_box-send {
+            width: 350px;
+            margin: 5px auto auto auto
+        }
+
+        .ais_box-send.ais_desctop {
+            width: 690px;
+            margin: 0 auto auto auto;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+            display: inline-table;
+            flex-grow: 1;
+            box-sizing: border-box;
+            max-height: 109px;
+            padding-right: 13px
+        }
+
+        .ais_message__foto.ais_desctop.ais_typing {
+            width: 28px;
+            height: 28px;
+            background-size: contain
+        }
+
+        .ais_message__box.ais_desctop.ais_typing {
+            animation-duration: 200ms;
+            background: none;
+            color: #333;
+            font-family: sans-serif;
+            font-size: 13px;
+            padding-bottom: 2px;
+            padding-left: 0
+        }
+
+        .ais_message.ais_typing {
+            margin-left: 20px;
+            position: absolute;
+            margin-top: -40px
+        }
+
+        .ais_data {
+            font-size: 10px;
+            text-align: center;
+            color: #afafaf;
+            border-radius: 15px;
+            background: #f4f4f4;
+            width: 66px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin: 15px auto 15px auto
+        }
+
+        .ais_data.ais_desctop {
+            width: 96px;
+            font-size: 12px
+        }
+
+        .ais_message {
+            margin-bottom: 5px;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: end;
+            align-items: flex-end
+        }
+
+        .ais_message__foto {
+            border-radius: 500px;
+            margin-right: 25px;
+            width: 30px;
+            height: 30px
+        }
+
+        .ais_message__foto.ais_desctop {
+            width: 48px;
+            height: 48px;
+            background-image: url(../images/avtor_desctop.jpg)
+        }
+
+        .ais_message__box {
+            background: #10a6f7;
+            color: #fff;
+            font-size: 14px;
+            max-width: 270px;
+            line-height: 18px;
+            padding: 12px 12px 12px 12px;
+            box-sizing: border-box;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 15px
+        }
+
+        .ais_message__box.ais_desctop {
+            font-size: 16px;
+            max-width: 488px;
+            line-height: 25px;
+            padding: 15px 15px 15px 15px
+        }
+
+        .ais_message__box.no-border {
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 15px
+        }
+
+        .ais_message__social {
+            display: -ms-flexbox;
+            display: flex;
+            margin-top: 10px
+        }
+
+        .ais_message__social_vk {
+            border-radius: 40px;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 5px;
+            padding: 8px 10px 8px 10px;
+            font-size: 11px;
+            background: #0091b4
+        }
+
+        .ais_message__social_vk.ais_desctop {
+            font-size: 14px;
+            padding: 8px 15px 8px 15px
+        }
+
+        .ais_message__social_tg {
+            border-radius: 40px;
+            color: #fff;
+            margin-right: 5px;
+            padding: 8px 10px 8px 10px;
+            font-size: 11px;
+            text-decoration: none;
+            background: #55d8ff
+        }
+
+        .ais_message__social_tg.ais_desctop {
+            font-size: 14px;
+            padding: 8px 15px 8px 15px
+        }
+
+        .ais_message__social_wp {
+            border-radius: 40px;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 10px 8px 10px;
+            font-size: 11px;
+            background: #86e0b3
+        }
+
+        .ais_message__social_wp.ais_desctop {
+            font-size: 14px;
+            padding: 8px 15px 8px 15px
+        }
+
+        .ais_sum {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            margin-bottom: 30px;
+            font-size: 15px;
+            -ms-flex-align: start;
+            align-items: flex-start
+        }
+
+        .ais_sum.ais_desctop {
+            font-size: 14px
+        }
+
+        .ais_sum__items {
+            border-radius: 40px;
+            border: 2px solid #438bfb;
+            margin-left: 5px;
+            color: #438bfb;
+            padding: 9px 10px 8px 10px;
+            cursor: pointer
+        }
+
+        .ais_sum__items.ais_desctop {
+            padding: 9px 15px 8px 15px
+        }
+
+        .ais_sum__close {
+            border: 2px solid #438bfb;
+            margin-left: 5px;
+            border-radius: 500px;
+            color: #438bfb;
+            width: 34px;
+            height: 34px;
+            cursor: pointer;
+            position: relative
+        }
+
+        .ais_sum__close:before {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position: absolute;
+            top: 7px;
+            left: 16px;
+            content: ' ';
+            height: 20px;
+            width: 2px;
+            background-color: #438bfb
+        }
+
+        .ais_sum__close:after {
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            position: absolute;
+            left: 16px;
+            top: 7px;
+            content: ' ';
+            height: 20px;
+            width: 2px;
+            background-color: #438bfb
+        }
+
+        .ais_sum__close.ais_desctop {
+            width: 41px;
+            height: 41px
+        }
+
+        .ais_sum__close.ais_desctop:before {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position: absolute;
+            top: 9px;
+            left: 20px;
+            content: ' ';
+            height: 23px;
+            width: 2px;
+            background-color: #438bfb
+        }
+
+        .ais_sum__close.ais_desctop:after {
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            position: absolute;
+            left: 20px;
+            top: 9px;
+            content: ' ';
+            height: 23px;
+            width: 2px;
+            background-color: #438bfb
+        }
+
+        .ais_message-me {
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: 5px;
+            -ms-flex-align: end;
+            align-items: flex-end;
+            -ms-flex-pack: end;
+            justify-content: flex-end
+        }
+
+        .ais_last {
+            background-image: url(../images/last.gif)!important;
+            width: 70px!important;
+            height: 70px!important;
+            margin-left: -22px;
+            background-size: 70px;
+            margin-bottom: -7px
+        }
+
+        .ais_message-me__foto {
+            width: 30px;
+            height: 30px;
+            margin-left: 25px;
+            background: url(../images/me.svg) center center;
+            background-size: contain
+        }
+
+        .ais_message-me__foto.ais_desctop {
+            width: 48px;
+            height: 48px;
+            border-radius: 100%
+        }
+
+        .ais_message-me__box.ais_desctop {
+            font-size: 16px;
+            max-width: 488px;
+            line-height: 25px;
+            padding: 15px 15px 15px 15px
+        }
+
+        .ais_send {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .ais_send.ais_desctop {
+            background: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            border-radius: 40px
+        }
+
+        .ais_send__input.ais_desctop {
+            background: #fff;
+            box-sizing: border-box;
+            margin-left: 12px;
+            font-size: 18px;
+            height: 48px;
+            color: #7d7d7d;
+            flex-grow: .95;
+            box-shadow: 0 0 12px 0 rgba(0,0,0,.45);
+            padding-left: 20px
+        }
+
+        .ais_send__input.ais_desctop::placeholder {
+            color: #858585
+        }
+
+        .ais_send__input.ais_desctop:focus::placeholder {
+            color: #a8a8a8
+        }
+
+        .ais_send__button {
+            background: url(../images/send.png) no-repeat;
+            width: 30px;
+            height: 30px;
+            border: 0;
+            cursor: pointer
+        }
+
+        .ais_send__button.ais_desctop {
+            background: url(../images/send_desctop.png) no-repeat center center;
+            width: 38px;
+            height: 38px;
+            border: 0;
+            border-radius: 100px;
+            background-size: initial;
+            background-color: #438bfb;
+            cursor: pointer;
+            margin-left: -55px
+        }
+    </style></head><body>
+
+<div class="manager__form">
+    <div class="ais_main">
+        <div class="ais_message-container">
+            <div class="ais_message-container__box">
+                <div class="ais_wrapper__desctop">
+					[Чат]
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>

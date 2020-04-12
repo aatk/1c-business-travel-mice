@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОбновитьСписок" id="33">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбновитьСписок</CommandName>
+				<ExtendedTooltip name="ФормаОбновитьСписокРасширеннаяПодсказка" id="34"/>
+			</Button>
+			<Button name="ФормаУдалитьБазуИзМаркетплейса" id="37">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>Form.Command.УдалитьБазуИзМаркетплейса</CommandName>
+				<ExtendedTooltip name="ФормаУдалитьБазуИзМаркетплейсаРасширеннаяПодсказка" id="38"/>
+			</Button>
+			<Button name="ФормаДобавитьБазуВМаретПлейс" id="35">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ДобавитьБазуВМаретПлейс</CommandName>
+				<ExtendedTooltip name="ФормаДобавитьБазуВМаретПлейсРасширеннаяПодсказка" id="36"/>
+			</Button>
+			<Button name="ФормаУстановитьМодуль" id="31">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.УстановитьМодуль</CommandName>
+				<ExtendedTooltip name="ФормаУстановитьМодульРасширеннаяПодсказка" id="32"/>
+			</Button>
+			<Button name="ФормаОбновитьКомпоненты" id="42">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбновитьКомпоненты</CommandName>
+				<ExtendedTooltip name="ФормаОбновитьКомпонентыРасширеннаяПодсказка" id="43"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="66">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<LabelField name="БалансКомпании" id="63">
+					<DataPath>БалансКомпании</DataPath>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</Format>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="БалансКомпанииКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="БалансКомпанииРасширеннаяПодсказка" id="65"/>
+					<Events>
+						<Event name="Click">БалансКомпанииНажатие</Event>
+					</Events>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="26">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<Table name="СписокМодулей" id="1">
+					<Representation>List</Representation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<ChoiceMode>true</ChoiceMode>
+					<SelectionMode>SingleRow</SelectionMode>
+					<RowSelectionMode>Row</RowSelectionMode>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>СписокМодулей</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СписокМодулейКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="СписокМодулейКоманднаяПанель" id="3">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокМодулейРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="СписокМодулейСтрокаПоиска" id="5">
+						<AdditionSource>
+							<Item>СписокМодулей</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокМодулейСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="СписокМодулейСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокМодулейСостояниеПросмотра" id="8">
+						<AdditionSource>
+							<Item>СписокМодулей</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокМодулейСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="СписокМодулейСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокМодулейУправлениеПоиском" id="11">
+						<AdditionSource>
+							<Item>СписокМодулей</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокМодулейУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="СписокМодулейУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">СписокМодулейВыбор</Event>
+						<Event name="OnActivateRow">СписокМодулейПриАктивизацииСтроки</Event>
+					</Events>
+					<ChildItems>
+						<CheckBoxField name="СписокМодулейТребуетсяОбновление" id="39">
+							<DataPath>СписокМодулей.ТребуетсяОбновление</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderPicture>
+								<xr:Ref>StdPicture.Refresh</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<ShowInFooter>false</ShowInFooter>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СписокМодулейТребуетсяОбновлениеКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="СписокМодулейТребуетсяОбновлениеРасширеннаяПодсказка" id="41"/>
+						</CheckBoxField>
+						<CheckBoxField name="СписокМодулейОплачено" id="57">
+							<DataPath>СписокМодулей.Оплачено</DataPath>
+							<Enabled>false</Enabled>
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderPicture>
+								<xr:Ref>CommonPicture.Рубль</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СписокМодулейОплаченоКонтекстноеМеню" id="58"/>
+							<ExtendedTooltip name="СписокМодулейОплаченоРасширеннаяПодсказка" id="59"/>
+						</CheckBoxField>
+						<CheckBoxField name="СписокМодулейНаПоддержке" id="60">
+							<DataPath>СписокМодулей.НаПоддержке</DataPath>
+							<Enabled>false</Enabled>
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderPicture>
+								<xr:Ref>CommonPicture.Поддержка</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СписокМодулейНаПоддержкеКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="СписокМодулейНаПоддержкеРасширеннаяПодсказка" id="62"/>
+						</CheckBoxField>
+						<CheckBoxField name="СписокМодулейРасшарено" id="68">
+							<DataPath>СписокМодулей.Расшарено</DataPath>
+							<Enabled>false</Enabled>
+							<EditMode>EnterOnInput</EditMode>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderPicture>
+								<xr:Ref>CommonPicture.Расшарено</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</HeaderPicture>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СписокМодулейРасшареноКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="СписокМодулейРасшареноРасширеннаяПодсказка" id="70"/>
+						</CheckBoxField>
+						<InputField name="СписокМодулейНаименование" id="17">
+							<DataPath>СписокМодулей.Наименование</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокМодулейНаименованиеКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="СписокМодулейНаименованиеРасширеннаяПодсказка" id="19"/>
+						</InputField>
+						<InputField name="СписокМодулейВерсияМодуля" id="14">
+							<DataPath>СписокМодулей.ВерсияМодуля</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокМодулейВерсияМодуляКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="СписокМодулейВерсияМодуляРасширеннаяПодсказка" id="16"/>
+						</InputField>
+						<InputField name="СписокМодулейКлючМодуля" id="20">
+							<DataPath>СписокМодулей.КлючМодуля</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокМодулейКлючМодуляКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="СписокМодулейКлючМодуляРасширеннаяПодсказка" id="22"/>
+						</InputField>
+						<InputField name="СписокМодулейРазработчик" id="44">
+							<DataPath>СписокМодулей.Разработчик</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокМодулейРазработчикКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="СписокМодулейРазработчикРасширеннаяПодсказка" id="46"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<UsualGroup name="Группа2" id="53">
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="54"/>
+					<ChildItems>
+						<HTMLDocumentField name="СписокМодулейОписание" id="28">
+							<DataPath>Items.СписокМодулей.CurrentData.Описание</DataPath>
+							<ContextMenu name="СписокМодулейОписаниеКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СписокМодулейОписаниеРасширеннаяПодсказка" id="30"/>
+						</HTMLDocumentField>
+						<UsualGroup name="Группа3" id="55">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="56"/>
+							<ChildItems>
+								<LabelField name="СписокМодулейСтоимость" id="47">
+									<DataPath>Items.СписокМодулей.CurrentData.Стоимость</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<TextColor>#008000</TextColor>
+									<Font ref="style:NormalTextFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ContextMenu name="СписокМодулейСтоимостьКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="СписокМодулейСтоимостьРасширеннаяПодсказка" id="49"/>
+								</LabelField>
+								<CheckBoxField name="СписокМодулейЗаТранзакцию" id="50">
+									<DataPath>Items.СписокМодулей.CurrentData.ЗаТранзакцию</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СписокМодулейЗаТранзакциюКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="СписокМодулейЗаТранзакциюРасширеннаяПодсказка" id="52"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="СписокМодулей" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список модулей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ВерсияМодуля" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Версия модуля</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КлючМодуля" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ модуля</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Описание" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ТребуетсяОбновление" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Требуется обновление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Разработчик" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разработчик</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Стоимость" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стоимость</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЗаТранзакцию" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>За транзакцию</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Оплачено" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплачено</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НаПоддержке" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>На поддержке</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Расшарено" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расшарено</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="БалансКомпании" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Баланс компании</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УстановитьМодуль" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить модуль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить модуль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.RestoreValues</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьМодуль</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбновитьСписок" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьСписок</Action>
+		</Command>
+		<Command name="ДобавитьБазуВМаретПлейс" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить базу в марет плейс</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить базу в марет плейс</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.КрасныйСветофор</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьБазуВМаретПлейс</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="УдалитьБазуИзМаркетплейса" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить базу из маркетплейса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить базу из маркетплейса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗеленыйСветофор</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьБазуИзМаркетплейса</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбновитьКомпоненты" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить компоненты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить компоненты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateInitialImage</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьКомпоненты</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

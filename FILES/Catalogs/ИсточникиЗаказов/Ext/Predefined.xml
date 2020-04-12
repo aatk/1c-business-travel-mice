@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="c6708c9d-ddd6-4e1e-9221-91c87ab6eed0">
+		<Name>BTRIP</Name>
+		<Code>000000001</Code>
+		<Description>BTRIP</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="850e8a4f-b348-428d-8632-9e0da939f3fd">
+		<Name>MobileBTRIP</Name>
+		<Code>000000002</Code>
+		<Description>Mobile BTRIP</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b6023789-e45b-4e16-99a2-a50482bb626f">
+		<Name>offline</Name>
+		<Code>000000003</Code>
+		<Description>Offline</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

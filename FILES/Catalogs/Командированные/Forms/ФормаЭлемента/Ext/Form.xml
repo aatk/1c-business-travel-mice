@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ФизЛицо" id="7">
+			<DataPath>Объект.ФизЛицо</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФизЛицоКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ФизЛицоРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ПоисковаяСтрока" id="16">
+			<DataPath>Объект.ПоисковаяСтрока</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПоисковаяСтрокаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ПоисковаяСтрокаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ФИОНаАнг" id="19">
+			<DataPath>Объект.ФИОНаАнг</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФИОНаАнгКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ФИОНаАнгРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ФИОНаАнгПоиск" id="22">
+			<DataPath>Объект.ФИОНаАнгПоиск</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФИОНаАнгПоискКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ФИОНаАнгПоискРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Фамилия" id="25">
+			<DataPath>Объект.Фамилия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФамилияКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ФамилияРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Имя" id="28">
+			<DataPath>Объект.Имя</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ИмяКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Отчество" id="31">
+			<DataPath>Объект.Отчество</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтчествоКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="LastName" id="34">
+			<DataPath>Объект.LastName</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="LastNameКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="LastNameРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="FirstName" id="37">
+			<DataPath>Объект.FirstName</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="FirstNameКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="FirstNameРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="SurName" id="40">
+			<DataPath>Объект.SurName</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="SurNameКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="SurNameРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<InputField name="Телефон" id="43">
+			<DataPath>Объект.Телефон</DataPath>
+			<ContextMenu name="ТелефонКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<InputField name="Email" id="46">
+			<DataPath>Объект.Email</DataPath>
+			<ContextMenu name="EmailКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="EmailРасширеннаяПодсказка" id="48"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Командированные</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПровестиИЗакрыть" id="119">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.StandardCommand.PostAndClose</CommandName>
+				<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="120"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="121">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.StandardCommand.Write</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="122"/>
+			</Button>
+			<Button name="ФормаПровести" id="123">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.StandardCommand.Post</CommandName>
+				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="124"/>
+			</Button>
+			<Popup name="ПодменюСоздатьНаОсновании" id="125">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Создать на основании</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Создать на основании</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+				<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="126"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюСоздатьНаОснованииВажное" id="139">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Важное)</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Важное)</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="140"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюСоздатьНаОснованииОбычное" id="141">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Обычное)</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (Обычное)</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="142"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюСоздатьНаОснованииСмТакже" id="143">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="144"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюПечать" id="127">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды печати</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="128"/>
+			</Popup>
+			<Popup name="ПодменюОтчеты" id="129">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отчеты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отчеты</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ОтчетыБТ</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="130"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюОтчетыВажное" id="131">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="132"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюОтчетыПерейти" id="133">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюОтчетыПерейтиРасширеннаяПодсказка" id="134"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюОтчетыСмТакже" id="135">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="136"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<ButtonGroup name="ФормаГлобальныеКоманды" id="137">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма глобальные команды</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма глобальные команды</v8:content>
+					</v8:item>
+				</ToolTip>
+				<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
+				<ExtendedTooltip name="ФормаГлобальныеКомандыРасширеннаяПодсказка" id="138"/>
+			</ButtonGroup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="ValueChoice">ВыборЗначения</Event>
+		<Event name="OnSaveDataInSettingsAtServer">ПриСохраненииДанныхВНастройкахНаСервере</Event>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="NewWriteProcessing">ОбработкаЗаписиНового</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="ExternalEvent">ВнешнееСобытие</Event>
+		<Event name="OnReopen">ПриПовторномОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="NavigationProcessing">ОбработкаПерехода</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="ActivationProcessing">ОбработкаАктивизации</Event>
+		<Event name="OnChangeDisplaySettings">ПриИзмененииПараметровЭкрана</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+		<Event name="URLProcessing">ОбработкаНавигационнойСсылки</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">ПередЗагрузкойДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа3" id="73">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="74"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ОтношениеУчета" id="116">
+					<DataPath>Объект.ОтношениеУчета</DataPath>
+					<ContextMenu name="ОтношениеУчетаКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="ОтношениеУчетаРасширеннаяПодсказка" id="118"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Партнер" id="7">
+			<DataPath>Объект.Партнер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПартнерКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПартнерРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Контрагент" id="10">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Договор" id="13">
+			<DataPath>Объект.Договор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="46">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<Table name="СвязанныеНоменклатуры" id="48">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.СвязанныеНоменклатуры</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СвязанныеНоменклатурыКонтекстноеМеню" id="49"/>
+					<AutoCommandBar name="СвязанныеНоменклатурыКоманднаяПанель" id="50">
+						<ChildItems>
+							<Button name="СвязанныеНоменклатурыЭкспертныйРежим" id="168">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ЭкспертныйРежим</CommandName>
+								<ExtendedTooltip name="СвязанныеНоменклатурыЭкспертныйРежимРасширеннаяПодсказка" id="169"/>
+							</Button>
+							<Button name="СвязанныеНоменклатурыУпрощенныйРежим" id="170">
+								<Type>CommandBarButton</Type>
+								<Visible>false</Visible>
+								<CommandName>Form.Command.УпрощенныйРежим</CommandName>
+								<ExtendedTooltip name="СвязанныеНоменклатурыУпрощенныйРежимРасширеннаяПодсказка" id="171"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СвязанныеНоменклатурыРасширеннаяПодсказка" id="51"/>
+					<SearchStringAddition name="СвязанныеНоменклатурыСтрокаПоиска" id="52">
+						<AdditionSource>
+							<Item>СвязанныеНоменклатуры</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СвязанныеНоменклатурыСтрокаПоискаКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="СвязанныеНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="54"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СвязанныеНоменклатурыСостояниеПросмотра" id="55">
+						<AdditionSource>
+							<Item>СвязанныеНоменклатуры</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СвязанныеНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="56"/>
+						<ExtendedTooltip name="СвязанныеНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="57"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СвязанныеНоменклатурыУправлениеПоиском" id="58">
+						<AdditionSource>
+							<Item>СвязанныеНоменклатуры</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СвязанныеНоменклатурыУправлениеПоискомКонтекстноеМеню" id="59"/>
+						<ExtendedTooltip name="СвязанныеНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="60"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnStartEdit">СвязанныеНоменклатурыПриНачалеРедактирования</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="РабочиеПолитикиНомерСтроки" id="83">
+							<DataPath>Объект.СвязанныеНоменклатуры.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РабочиеПолитикиНомерСтрокиКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="РабочиеПолитикиНомерСтрокиРасширеннаяПодсказка" id="85"/>
+						</LabelField>
+						<ColumnGroup name="СвязанныеНоменклатурыГруппа1" id="157">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Связанные номенклатуры группа1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Связанные номенклатуры группа1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СвязанныеНоменклатурыГруппа1РасширеннаяПодсказка" id="158"/>
+							<ChildItems>
+								<InputField name="РабочиеПолитикиДобавляемаяНоменклатура" id="95">
+									<DataPath>Объект.СвязанныеНоменклатуры.ОсновнаяНоменклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РабочиеПолитикиДобавляемаяНоменклатураКонтекстноеМеню" id="96"/>
+									<ExtendedTooltip name="РабочиеПолитикиДобавляемаяНоменклатураРасширеннаяПодсказка" id="97"/>
+								</InputField>
+								<InputField name="РабочиеПолитикиПолитика" id="86">
+									<DataPath>Объект.СвязанныеНоменклатуры.СвязаннаяНоменклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РабочиеПолитикиПолитикаКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="РабочиеПолитикиПолитикаРасширеннаяПодсказка" id="88"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<CheckBoxField name="СвязанныеНоменклатурыСуммаВПроцентах" id="110">
+							<DataPath>Объект.СвязанныеНоменклатуры.ЦенаВПроцентах</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СвязанныеНоменклатурыСуммаВПроцентахКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="СвязанныеНоменклатурыСуммаВПроцентахРасширеннаяПодсказка" id="112"/>
+						</CheckBoxField>
+						<InputField name="СвязанныеНоменклатурыПредставлениеСвязаннойУслуги" id="180">
+							<DataPath>Объект.СвязанныеНоменклатуры.ПредставлениеСвязаннойУслуги</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceButton>true</ChoiceButton>
+							<ClearButton>true</ClearButton>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="СвязанныеНоменклатурыПредставлениеСвязаннойУслугиКонтекстноеМеню" id="181"/>
+							<ExtendedTooltip name="СвязанныеНоменклатурыПредставлениеСвязаннойУслугиРасширеннаяПодсказка" id="182"/>
+							<Events>
+								<Event name="StartChoice">СвязанныеНоменклатурыПредставлениеСвязаннойУслугиНачалоВыбора</Event>
+								<Event name="Clearing">СвязанныеНоменклатурыПредставлениеСвязаннойУслугиОчистка</Event>
+							</Events>
+						</InputField>
+						<ColumnGroup name="СвязанныеНоменклатурыГруппа5" id="175">
+							<ExtendedTooltip name="СвязанныеНоменклатурыГруппа5РасширеннаяПодсказка" id="176"/>
+							<ChildItems>
+								<InputField name="СвязанныеНоменклатурыПрименяетсяК" id="145">
+									<DataPath>Объект.СвязанныеНоменклатуры.ПрименяетсяК</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СвязанныеНоменклатурыПрименяетсяККонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="СвязанныеНоменклатурыПрименяетсяКРасширеннаяПодсказка" id="147"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="СвязанныеНоменклатурыГруппа2" id="159">
+							<ExtendedTooltip name="СвязанныеНоменклатурыГруппа2РасширеннаяПодсказка" id="160"/>
+							<ChildItems>
+								<InputField name="РабочиеПолитикиЦена" id="98">
+									<DataPath>Объект.СвязанныеНоменклатуры.Цена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РабочиеПолитикиЦенаКонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="РабочиеПолитикиЦенаРасширеннаяПодсказка" id="100"/>
+									<Events>
+										<Event name="OnChange">РабочиеПолитикиЦенаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="РабочиеПолитикиСумма" id="107">
+									<DataPath>Объект.СвязанныеНоменклатуры.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РабочиеПолитикиСуммаКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="РабочиеПолитикиСуммаРасширеннаяПодсказка" id="109"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="СвязанныеНоменклатурыГруппа3" id="161">
+							<ExtendedTooltip name="СвязанныеНоменклатурыГруппа3РасширеннаяПодсказка" id="162"/>
+							<ChildItems>
+								<InputField name="РабочиеПолитикиСтавкаНДС" id="101">
+									<DataPath>Объект.СвязанныеНоменклатуры.СтавкаНДС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РабочиеПолитикиСтавкаНДСКонтекстноеМеню" id="102"/>
+									<ExtendedTooltip name="РабочиеПолитикиСтавкаНДСРасширеннаяПодсказка" id="103"/>
+									<Events>
+										<Event name="OnChange">РабочиеПолитикиСтавкаНДСПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="РабочиеПолитикиСуммаНДС" id="104">
+									<DataPath>Объект.СвязанныеНоменклатуры.СуммаНДС</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РабочиеПолитикиСуммаНДСКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="РабочиеПолитикиСуммаНДСРасширеннаяПодсказка" id="106"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="СвязанныеНоменклатурыГруппа4" id="163">
+							<ExtendedTooltip name="СвязанныеНоменклатурыГруппа4РасширеннаяПодсказка" id="164"/>
+							<ChildItems>
+								<InputField name="СвязанныеНоменклатурыНеМенееЧем" id="151">
+									<DataPath>Объект.СвязанныеНоменклатуры.НеМенееЧем</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СвязанныеНоменклатурыНеМенееЧемКонтекстноеМеню" id="152"/>
+									<ExtendedTooltip name="СвязанныеНоменклатурыНеМенееЧемРасширеннаяПодсказка" id="153"/>
+								</InputField>
+								<InputField name="СвязанныеНоменклатурыНеБолееЧем" id="154">
+									<DataPath>Объект.СвязанныеНоменклатуры.НеБолееЧем</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СвязанныеНоменклатурыНеБолееЧемКонтекстноеМеню" id="155"/>
+									<ExtendedTooltip name="СвязанныеНоменклатурыНеБолееЧемРасширеннаяПодсказка" id="156"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<CheckBoxField name="СвязанныеНоменклатурыСворачиватьНаУслугуВладельца" id="113">
+							<DataPath>Объект.СвязанныеНоменклатуры.СворачиватьНаУслугуВладельца</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СвязанныеНоменклатурыСворачиватьНаУслугуВладельцаКонтекстноеМеню" id="114"/>
+							<ExtendedTooltip name="СвязанныеНоменклатурыСворачиватьНаУслугуВладельцаРасширеннаяПодсказка" id="115"/>
+						</CheckBoxField>
+						<InputField name="СвязанныеНоменклатурыРеквизитУстановкиЦены" id="148">
+							<DataPath>Объект.СвязанныеНоменклатуры.РеквизитУстановкиЦены</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Реквизит установки расчитанной стоимости</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Цена пставщика</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">Цена</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма НДС поставщика 18</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СуммаНДС18</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма НДС поставщика 10</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СуммаНДС10</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма НДС поставщика 18/118</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СуммаНДС18118</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма НДС поставщика 10/110</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СуммаНДС10110</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="СвязанныеНоменклатурыРеквизитУстановкиЦеныКонтекстноеМеню" id="149"/>
+							<ExtendedTooltip name="СвязанныеНоменклатурыРеквизитУстановкиЦеныРасширеннаяПодсказка" id="150"/>
+						</InputField>
+						<InputField name="СвязанныеНоменклатурыОбработчик" id="165">
+							<DataPath>Объект.СвязанныеНоменклатуры.Обработчик</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СвязанныеНоменклатурыОбработчикКонтекстноеМеню" id="166"/>
+							<ExtendedTooltip name="СвязанныеНоменклатурыОбработчикРасширеннаяПодсказка" id="167"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.СвязьНоменклатур</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РабочиеПолитикиЦена</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>РабочиеПолитикиСтавкаНДС</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РабочиеПолитикиСуммаНДС</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>РабочиеПолитикиСумма</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СвязанныеНоменклатуры.ПрименяетсяК</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СвязанныеНоменклатуры.ЦенаВПроцентах</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По списку полей "Применяется к"</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СвязанныеНоменклатурыРеквизитУстановкиЦены</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СвязанныеНоменклатуры.ПрименяетсяК</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступно только при активном "Применен К"</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СвязанныеНоменклатурыНеМенееЧем</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>СвязанныеНоменклатурыНеБолееЧем</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СвязанныеНоменклатуры.ЦенаВПроцентах</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Только для процентов</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ЭкспертныйРежим" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспертный режим</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспертный режим</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЭксперРежим</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЭкспертныйРежим</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="УпрощенныйРежим" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Упрощенный режим</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Упрощенный режим</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УпрощенныйРежим</Action>
+		</Command>
+	</Commands>
+</Form>

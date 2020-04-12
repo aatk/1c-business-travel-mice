@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.5">
+	<Item id="281be9e7-8632-463f-8eb4-ca72f2f8d370">
+		<Name>ПересчитыватьСуммыКлиетовВУслуге</Name>
+		<Code>000000002</Code>
+		<Description>Пересчитывать суммы клиетов в услуге</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8fc6734-b240-45af-b5d6-d159ec1acc00">
+		<Name>ПравоРедактированияВЗакрытомПериоде</Name>
+		<Code>000000001</Code>
+		<Description>Право редактирования в закрытом периоде</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>10</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

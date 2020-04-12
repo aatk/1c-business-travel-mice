@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="11de801d-5bbc-4348-86e0-39aa92d69fa5">
+		<Properties>
+			<Name>РолиБТ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Роли БТ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.БазовыеПраваБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеАвтозаполнениеЭкстраПолей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеАвтозаполнениеЭкстраПолейХранение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеВидыМест</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗагрузкиФайловИзДиректорий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеДополнительныеОтчетыИПечатныеФормы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗаказИзКорзины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗаказКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗаказКомандированногоБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеИсточникиЗаказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗаказПоставщикуБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеКомандированные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеМеста</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеКомиссииПоставщиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеКомиссииПоставщиковРегистр</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНаборХарактеристикДляНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНаборХарактеристикДляКонтрагента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНаборХарактеристикДляЭкстраПолей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНаборХарактеристикДляПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНастройкиЗагрузокУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНаборХарактеристикСистемный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНоменклатураБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНастройкиПользователяБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОписаниеКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОписаниеНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОтношениеЭкстраПолей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОтчетыКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеПроектБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеПройденТревелПолитикой</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРеквизитыЗаказИзКорзины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРеквизитыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРеквизитыУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРолиИсполнителейКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСвязьНоменклатур</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСервераШины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСмета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСписокДопУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСтатусЗаказаКомандированногоПродажа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеТипыДанныхЭкстраСправочника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСтатусПроверкиУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеТипыОписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеТревелПолитика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУникальныеИдентификаторы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУслуга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеФайлыДляОтправкиВОблако</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеФункцииОписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЭкстраСправочник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЭлементСвязаннойНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЭлементТревелПолитики</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИспользованиеДвиженияДокументаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИспользованиеЗагрузкаДанныхИзШины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИспользованиеПрикрепленныеФайлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИспользованиеПроверкаJSON</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаБизнесТревел</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеАвтозаполнениеЭкстраПолей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеАвтозаполнениеЭкстраПолейХранение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеБалансПоПродажамУслугИТоварамБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеБалансПоЭкстраПолям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеВидыМест</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗагрузкиФайловИзДиректорий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗаказИзКорзины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗаказКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗаказКомандированногоБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеИсточникиЗаказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеКомандированные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеМеста</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНаборХарактеристикДляНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНаборХарактеристикДляЭкстраПолей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНастройкиЗагрузокУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеДополнительныеОтчетыИПечатныеФормы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНоменклатураБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОписаниеКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОписаниеНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОтношениеЭкстраПолей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗаказПоставщикуБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОтчетыКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеПроектБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеКомиссииПоставщиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеКомиссииПоставщиковРегист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеПройденТревелПолитикой</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРеквизитыЗаказИзКорзины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНаборХарактеристикДляКонтрагента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНаборХарактеристикДляПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРеквизитыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНаборХарактеристикСистемный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРеквизитыУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНастройкиПользователяБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРолиИсполнителейКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСвязьНоменклатур</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСервераШины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСмета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСписокДопУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСтатусЗаказаКомандированногоПродажа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеТипыДанныхЭкстраСправочника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеТипыОписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеТревелПолитика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУникальныеИдентификаторы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУслуга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеФайлыДляОтправкиВОблако</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеФункцииОписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЭкстраСправочник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЭлементСвязаннойНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЭлементТревелПолитики</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСтатусПроверкиУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОперационныйМенеджер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОперационныйРуководитель</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МенеджерПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РуководительПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МенеджерMICE</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РуководительMICE</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МенеджерУправленияБД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЗапускТонкогоКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеПечатныеФормыКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеПечатныеФормыКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеРеквизитыПартнера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеРеквизитыПартнера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗапрещенныеХарактеристики</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗапрещенныеХарактеристики</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеМаппинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеТипМаппинга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеМаппинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеТипМаппинга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗачетОплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗачетОплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗачетОплатыПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗачетОплатыПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеБалансПоПоставщикам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеБалансПоПоставщикам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЧатБотДляКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЧатБотДляКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУслугиВЗаказеПоставщика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавленииеИзменениеУслугиВЗаказеПоставщика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУсловияСогласованияКомандировки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУсловияСогласованияКомандировки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСогласованиеКомандировки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСогласованиеКомандировки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСогласованиеКомандировокТочкиМаршрута</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСогласованиеКомандировокТочкиМаршрута</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОплатаЗаказовКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеОплатаЗаказовКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСтатусыДоставки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСтатусыДоставки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеДоставкаДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеДоставкаДокументов</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

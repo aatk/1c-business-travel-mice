@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="fd2b22f6-3e5c-4d32-8cf4-1ebb2bf5f380">
+		<Name>Аэропорт</Name>
+		<Code>000000003</Code>
+		<Description>Аэропорт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b666be8f-2d13-48e7-9754-ba6df284f637">
+		<Name>Город</Name>
+		<Code>000000002</Code>
+		<Description>Город</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7e835e02-e8eb-465c-bf70-f5ec0ff23f51">
+		<Name>Гостиница</Name>
+		<Code>000000005</Code>
+		<Description>Гостиница</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8cded17a-e0f6-41dc-8103-886ce8273441">
+		<Name>ЖДСтанция</Name>
+		<Code>000000004</Code>
+		<Description>ЖД Станция</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b420046-4ae3-483f-b405-6e775b36d0cf">
+		<Name>Страна</Name>
+		<Code>000000001</Code>
+		<Description>Страна</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

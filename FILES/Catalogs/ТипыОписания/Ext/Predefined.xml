@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="597642a5-314e-4f12-9e47-15d09edc40ba">
+		<Name>CityIATA</Name>
+		<Code>000000012</Code>
+		<Description>City IATA</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b420046-4ae3-483f-b405-6e775b36d0cf">
+		<Name>IATA</Name>
+		<Code>000000001</Code>
+		<Description>IATA</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="78fae78a-6b85-4f3a-8a36-9ca1c0a2bc19">
+		<Name>ICAO</Name>
+		<Code>000000004</Code>
+		<Description>ICAO</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1edd3f9-e0b6-42e8-b4e5-95887034a38c">
+		<Name>ISO</Name>
+		<Code>000000005</Code>
+		<Description>ISO</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6c68727d-48c9-497c-9f50-e628f71d8806">
+		<Name>Latitude</Name>
+		<Code>000000008</Code>
+		<Description>Latitude</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="27776e06-450b-494b-9c46-ad8513ab519c">
+		<Name>Longitude</Name>
+		<Code>000000009</Code>
+		<Description>Longitude</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2a56f2bd-b912-4b4f-95e9-3ff807344f7a">
+		<Name>ЖДКод</Name>
+		<Code>000000002</Code>
+		<Description>ЖДКод</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2544ad44-571c-41c3-b839-c560fa16abd4">
+		<Name>ИмяАнг</Name>
+		<Code>000000003</Code>
+		<Description>Имя анг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2da5ab89-832d-46bc-adf8-1c36d55c56e3">
+		<Name>НазваниеЖДСтанцииТКП</Name>
+		<Code>000000011</Code>
+		<Description>Название ЖД Станции ТКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2d07b5e6-2149-473a-a435-529c53e464de">
+		<Name>НазваниеОтделения</Name>
+		<Code>000000016</Code>
+		<Description>Название отделения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="03c4a578-0ae1-4a4a-88ba-bf909572dc85">
+		<Name>НаименованиеЖД</Name>
+		<Code>000000014</Code>
+		<Description>Наименование ж.д.</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="69987561-a84d-466a-834e-d7006fa54c33">
+		<Name>НРегИмя</Name>
+		<Code>000000006</Code>
+		<Description>НРег имя</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0cf10b7b-a976-4255-a9bf-58333690cc76">
+		<Name>НРегИмяАнг</Name>
+		<Code>000000007</Code>
+		<Description>НРег имя анг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d895cc27-32a8-4f72-86c5-149788709757">
+		<Name>Регион</Name>
+		<Code>000000015</Code>
+		<Description>Регион</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8953cab7-feff-4c83-87cf-1f77e467b39a">
+		<Name>РУСКОД</Name>
+		<Code>000000010</Code>
+		<Description>РУСКОД</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8094fff-cd16-4e8a-b81b-76590ed24b07">
+		<Name>СтрокаПоиска</Name>
+		<Code>000000013</Code>
+		<Description>Строка поиска</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

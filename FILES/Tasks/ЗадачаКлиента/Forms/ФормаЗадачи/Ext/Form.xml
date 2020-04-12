@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="46">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="7">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="СрокИсполнения" id="25">
+					<DataPath>Объект.СрокИсполнения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СрокИсполненияКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="СрокИсполненияРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="48">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="49"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="50">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<InputField name="ДатаНачала" id="13">
+							<DataPath>Объект.ДатаНачала</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<CheckBoxField name="ПринятаКИсполнению" id="22">
+							<DataPath>Объект.ПринятаКИсполнению</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПринятаКИсполнениюКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ПринятаКИсполнениюРасширеннаяПодсказка" id="24"/>
+						</CheckBoxField>
+						<InputField name="ДатаПринятияКИсполнению" id="16">
+							<DataPath>Объект.ДатаПринятияКИсполнению</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаПринятияКИсполнениюКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ДатаПринятияКИсполнениюРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<CheckBoxField name="Выполнена" id="43">
+							<DataPath>Объект.Executed</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВыполненаКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="ВыполненаРасширеннаяПодсказка" id="45"/>
+						</CheckBoxField>
+						<InputField name="ДатаИсполнения" id="19">
+							<DataPath>Объект.ДатаИсполнения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаИсполненияКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ДатаИсполненияРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа4" id="52">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="53"/>
+					<ChildItems>
+						<InputField name="СогласованиеКомандировки" id="31">
+							<DataPath>Объект.ОбъектЗадачи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СогласованиеКомандировкиКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СогласованиеКомандировкиРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="ТочкаМаршрутаСогласования" id="34">
+							<DataPath>Объект.ТочкаМаршрутаЗадачи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТочкаМаршрутаСогласованияКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ТочкаМаршрутаСогласованияРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="Исполнитель" id="37">
+							<DataPath>Объект.Исполнитель</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ИсполнительКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="РольИсполнителя" id="40">
+							<DataPath>Объект.РольИсполнителя</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РольИсполнителяКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="РольИсполнителяРасширеннаяПодсказка" id="42"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="РезультатВыполнения" id="28">
+			<DataPath>Объект.РезультатВыполнения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="РезультатВыполненияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="РезультатВыполненияРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Автор" id="10">
+			<DataPath>Объект.Автор</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="АвторКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="12"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:TaskObject.ЗадачаКлиента</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

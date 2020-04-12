@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="1b7bc3dd-06c4-4df3-9977-a7e2db351b73">
+		<Name>АвтопечатьДокументов</Name>
+		<Code>000000007</Code>
+		<Description>Автопечать документов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b9e50a5c-0eba-494a-bc4e-4d574ee25500">
+		<Name>АвтосозданиеДокументов</Name>
+		<Code>000000006</Code>
+		<Description>Автосоздание документов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9bd8c4f5-bec9-4e4d-8ae5-82d6a411f7aa">
+		<Name>ВыгрузкаВПапкуИлиFTP</Name>
+		<Code>000000003</Code>
+		<Description>Выгрузка в папку или FTP</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0ac9420e-7a3e-4af8-83a5-456f5a4c903b">
+		<Name>ВыгрузкаДанныхВШину</Name>
+		<Code>000000004</Code>
+		<Description>Выгрузка данных в шину</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="70de59eb-94fd-4091-bc7f-c5d41874e4bf">
+		<Name>ВыгрузкаПапокИFTPВШину</Name>
+		<Code>000000001</Code>
+		<Description>Выгрузка папок и FTP в Шину</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2f404a1c-fbbe-4638-9be3-f035881f9df0">
+		<Name>ЗагрузкаДанныхИзШины</Name>
+		<Code>000000002</Code>
+		<Description>Загрузка данных из шины</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6d2c8cc4-afe4-475e-829d-71c0d9346147">
+		<Name>ОбновлениеМаркетПлейс</Name>
+		<Code>000000005</Code>
+		<Description>Обновление маркет плейс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

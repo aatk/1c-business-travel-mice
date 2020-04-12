@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="067a60de-9e3d-4c6c-8ded-c316426516b1">
+		<Name>СогласованиеЗаказаИзКорзины</Name>
+		<Code>000000003</Code>
+		<Description>Согласование заказа из корзины</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aad015e4-4b1c-467e-a0d0-275a807ff626">
+		<Name>СогласованиеКомандировки</Name>
+		<Code>000000002</Code>
+		<Description>Согласование командировки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="957b5f99-d005-4fb9-b8b3-54e3e557e23d">
+		<Name>СогласованиеУслуги</Name>
+		<Code>000000001</Code>
+		<Description>Согласование услуги</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

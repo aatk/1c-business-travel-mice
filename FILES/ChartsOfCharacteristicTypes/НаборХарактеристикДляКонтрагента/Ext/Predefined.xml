@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.5">
+	<Item id="e1c54d2b-68ff-48bd-aa16-2331e2d700e2">
+		<Name>БанковскийСчетОрганизацииДляКонтрагента</Name>
+		<Code>000000005</Code>
+		<Description>Банковский счет организации для контрагента</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a9016ace-adb6-4340-bb46-d4098454ccf7">
+		<Name>ВедущийБухгалтер</Name>
+		<Code>000000007</Code>
+		<Description>Ведущий бухгалтер</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="75f43bf2-4834-4f95-be31-b14b5242214d">
+		<Name>ВедущийМенеджер</Name>
+		<Code>000000006</Code>
+		<Description>Ведущий менеджер</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="04bd9cf9-fd14-4a7b-a5c0-a4247b922307">
+		<Name>ОрганизацияДляКонтрагнета</Name>
+		<Code>000000004</Code>
+		<Description>Организация для контрагнета</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ee7e4a18-23bb-47f0-9965-74858bc21f90">
+		<Name>ОстановитьВыписку</Name>
+		<Code>000000003</Code>
+		<Description>Остановить выписку</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d1d39df6-73b3-421d-93ac-17da5f050e1c">
+		<Name>ОтправлятьНаEmailПриПроведении</Name>
+		<Code>000000001</Code>
+		<Description>Отправлять на email при проведении</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>256</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0f0de6a9-ea85-479f-8761-d1f7217c580c">
+		<Name>СписокПечатныхФормДляОтправки</Name>
+		<Code>000000002</Code>
+		<Description>Список печатных форм для отправки</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ФункцииОписания</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ИсточникиЗаказов</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЭлементОтбора</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ПроектБТ</v8:Type>
+			<v8:Type>xs:boolean</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.НастройкиВыгрузкиОбъектов</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.НастройкиЗагрузокУслуг</v8:Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Места</v8:Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ДополнительныеОтчетыИПечатныеФормы</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.НоменклатураБТ</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+			<v8:StringQualifiers>
+				<v8:Length>256</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

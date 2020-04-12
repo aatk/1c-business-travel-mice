@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="bcd6556d-99f1-41d2-9789-0e01d3ee034a">
+		<Properties>
+			<Name>Прочее</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочее</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подготовка к версии 4
+Основные изменения:
+1. Экспорт конфигурации БТ в json D4B
+2. Ввод документов Услуга из online
+3. Сквозная интеграция через шину</v8:content>
+				</v8:item>
+			</Explanation>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПрикрепленныеФайлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыЗаказИзКорзины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УникальныеИдентификаторы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УсловияФормированияДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АктуальныйДокументФормированияДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПодготовитьДляФормированияДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхВОбъекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АвтозаполнениеХарактеристик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИнформацияПоУслугеЭкстраполя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УслугиВЗаказеКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыКонтактногоЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МодульОбъектаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МакетыБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОтношениеУчетаСвязанныхНоменклатур</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МодульМенеджераОбъектыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправляемыеФормыМодульМенеджера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправляемыеФормыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправляемыеФормыКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаОтбора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЭлементОтбора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусЗаказаКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДополнительныеОтчетыИПечатныеФормыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ПечатьДокументовБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыВнешнихФукций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДополнительныеОтчетыИПечатныеФормыВызовСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОперационныйМенеджер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОперационныйРуководитель</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МенеджерПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РуководительПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МенеджерMICE</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РуководительMICE</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.МенеджерУправленияБД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусПроверкиУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РасшаритьКомпоненту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСтатусПроверкиУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСтатусПроверкиУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНаборХарактеристикДляПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНаборХарактеристикДляПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНастройкиПользователяБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеНастройкиПользователяБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЗаказКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеЗаказКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтчетыБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДопУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыСметы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыФизЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыПартнера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыКонтрагента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РеквизитыОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.КешСобытийМП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПредопределенныеЗначенияНоменклатурБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УсловияЗаполненияЗаказаКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипДочернейУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МодульФункцийПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЭксперРежим</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УслугиВЗаказеПоставщика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОписаниеУслугВЗаказахКлиентаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОписаниеУслугВЗаказахПоставщикаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СистемыДляЧатов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипЗапросаСхемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИнформацияПоСуммамУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УсловияСогласований</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПапкаБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПредставлениеКомандируемыхВУслугах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьТревелПолитику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьТревелПолитику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АктуальныйДокументСвязанныхНоменклатурБТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбязательноеЗаполнениеХарактеристик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияПакетДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправляемыеФормыВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.НаблюдениеЗаЗаписями</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

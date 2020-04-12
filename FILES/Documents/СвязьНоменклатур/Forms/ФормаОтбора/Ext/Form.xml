@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Button name="СоздатьПравилоИЗакрыть" id="70">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.СоздатьПравилоИЗакрыть</CommandName>
+			<ExtendedTooltip name="СоздатьПравилоИЗакрытьРасширеннаяПодсказка" id="71"/>
+		</Button>
+		<Table name="РучнойОтбор" id="14">
+			<Representation>Tree</Representation>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<MultipleChoice>true</MultipleChoice>
+			<RowInputMode>AfterCurrentRow</RowInputMode>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>РучнойОтбор</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>HierarchicalList</ExcludedCommand>
+				<ExcludedCommand>List</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>OutputList</ExcludedCommand>
+				<ExcludedCommand>SelectAll</ExcludedCommand>
+				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+				<ExcludedCommand>SortListAsc</ExcludedCommand>
+				<ExcludedCommand>SortListDesc</ExcludedCommand>
+				<ExcludedCommand>Tree</ExcludedCommand>
+			</CommandSet>
+			<ContextMenu name="РучнойОтборКонтекстноеМеню" id="15"/>
+			<AutoCommandBar name="РучнойОтборКоманднаяПанель" id="16">
+				<ChildItems>
+					<Button name="РучнойОтборДобавитьЭлемент" id="63">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.ДобавитьЭлемент</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="РучнойОтборДобавитьЭлементРасширеннаяПодсказка" id="64"/>
+					</Button>
+					<Button name="РучнойОтборДобавитьГруппу" id="47">
+						<Type>CommandBarButton</Type>
+						<Visible>false</Visible>
+						<CommandName>Form.Command.ДобавитьГруппу</CommandName>
+						<ExtendedTooltip name="РучнойОтборДобавитьГруппуРасширеннаяПодсказка" id="48"/>
+					</Button>
+					<Button name="РучнойОтборКнопка1" id="68">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.РучнойОтбор.StandardCommand.Delete</CommandName>
+						<ExtendedTooltip name="РучнойОтборКнопка1РасширеннаяПодсказка" id="69"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="РучнойОтборРасширеннаяПодсказка" id="17"/>
+			<SearchStringAddition name="РучнойОтборСтрокаПоиска" id="18">
+				<AdditionSource>
+					<Item>РучнойОтбор</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РучнойОтборСтрокаПоискаКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="РучнойОтборСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РучнойОтборСостояниеПросмотра" id="21">
+				<AdditionSource>
+					<Item>РучнойОтбор</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РучнойОтборСостояниеПросмотраКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="РучнойОтборСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РучнойОтборУправлениеПоиском" id="24">
+				<AdditionSource>
+					<Item>РучнойОтбор</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РучнойОтборУправлениеПоискомКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="РучнойОтборУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">РучнойОтборПриАктивизацииСтроки</Event>
+			</Events>
+			<ChildItems>
+				<ColumnGroup name="РучнойОтборГруппа2" id="53">
+					<ExtendedTooltip name="РучнойОтборГруппа2РасширеннаяПодсказка" id="54"/>
+					<ChildItems>
+						<ColumnGroup name="ГруппаГрупп" id="51">
+							<Visible>false</Visible>
+							<EnableContentChange>true</EnableContentChange>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа групп</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа групп</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="ГруппаГруппРасширеннаяПодсказка" id="52"/>
+							<ChildItems>
+								<InputField name="РучнойОтборТипГруппы" id="36">
+									<DataPath>РучнойОтбор.ТипГруппы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РучнойОтборТипГруппыКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="РучнойОтборТипГруппыРасширеннаяПодсказка" id="38"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="ГруппаЭлементов" id="49">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа элементов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа элементов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="ГруппаЭлементовРасширеннаяПодсказка" id="50"/>
+							<ChildItems>
+								<InputField name="РучнойОтборЛевоеЗначение" id="27">
+									<DataPath>РучнойОтбор.ЛевоеЗначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РучнойОтборЛевоеЗначениеКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="РучнойОтборЛевоеЗначениеРасширеннаяПодсказка" id="29"/>
+									<Events>
+										<Event name="StartChoice">РучнойОтборЛевоеЗначениеНачалоВыбора</Event>
+									</Events>
+								</InputField>
+								<InputField name="РучнойОтборВидСравнения" id="30">
+									<DataPath>РучнойОтбор.ВидСравнения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РучнойОтборВидСравненияКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="РучнойОтборВидСравненияРасширеннаяПодсказка" id="32"/>
+								</InputField>
+								<InputField name="РучнойОтборПравоеЗначение" id="33">
+									<DataPath>РучнойОтбор.ПравоеЗначениеНоменклатур</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<TypeLink>
+										<xr:DataPath>Items.РучнойОтбор.CurrentData.ЛевоеЗначение</xr:DataPath>
+										<xr:LinkItem>0</xr:LinkItem>
+									</TypeLink>
+									<ContextMenu name="РучнойОтборПравоеЗначениеКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="РучнойОтборПравоеЗначениеРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<InputField name="РучнойОтборПравоеЗначениеЭкстаПолей" id="55">
+									<DataPath>РучнойОтбор.ПравоеЗначениеЭкстаПолей</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<TypeLink>
+										<xr:DataPath>Items.РучнойОтбор.CurrentData.ЛевоеЗначение</xr:DataPath>
+										<xr:LinkItem>0</xr:LinkItem>
+									</TypeLink>
+									<ContextMenu name="РучнойОтборПравоеЗначениеЭкстаПолейКонтекстноеМеню" id="56"/>
+									<ExtendedTooltip name="РучнойОтборПравоеЗначениеЭкстаПолейРасширеннаяПодсказка" id="57"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="РучнойОтбор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ручной отбор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ЛевоеЗначение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.НаборХарактеристикДляЭкстраПолей</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.НаборХарактеристикДляНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВидСравнения" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид сравнения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>ent:ComparisonType</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоеЗначениеНоменклатур" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение услуги</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.НаборХарактеристикДляНоменклатуры</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="ТипГруппы" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип группы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>dcsset:DataCompositionFilterItemsGroupType</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоеЗначениеЭкстаПолей" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение экста поля</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.НаборХарактеристикДляЭкстраПолей</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="ЭтоГруппа" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это группа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ДобавитьГруппу" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьГруппу</Action>
+		</Command>
+		<Command name="СгенерироватьRLS" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать RLS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать RLS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгенерироватьRLS</Action>
+		</Command>
+		<Command name="ДобавитьЭлемент" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить элемент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьЭлемент</Action>
+		</Command>
+		<Command name="СоздатьПравилоИЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать правило и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать правило и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьПравилоИЗакрыть</Action>
+		</Command>
+	</Commands>
+</Form>

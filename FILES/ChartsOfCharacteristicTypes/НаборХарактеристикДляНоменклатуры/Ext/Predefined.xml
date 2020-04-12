@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.5">
+	<Item id="f2bc6baa-1e97-4969-b074-c60a14be4ffd">
+		<Name>MICE</Name>
+		<Code>000000059</Code>
+		<Description>MICE</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="bb2a995f-3aea-443a-9945-3b2774a5cf5f">
+				<Name>Проект</Name>
+				<Code>000000060</Code>
+				<Description>Проект</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.ПроектБТ</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="6332946c-4c0f-4391-b3eb-fb18bbafe442">
+		<Name>Авиабилеты</Name>
+		<Code>000000001</Code>
+		<Description>Авиабилеты</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="0fd288d8-0e37-4dc2-916d-0702b55cc13a">
+				<Name>СегментыАвиа</Name>
+				<Code>000000028</Code>
+				<Description>Сегменты авиа</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="6d6383f1-0fdf-4a17-8976-dc3822ee2f8d">
+						<Name>BC</Name>
+						<Code>000000073</Code>
+						<Description>BC</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="11009f34-d341-471b-9a95-87b559ad3e98">
+						<Name>CodeShape</Name>
+						<Code>000000067</Code>
+						<Description>Code shape</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2316e1a7-b6f3-4b24-91e7-8f922f39cd22">
+						<Name>FareBases</Name>
+						<Code>000000070</Code>
+						<Description>Fare bases</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="c1712cef-bd86-4d12-8f95-e2ba038a2bdb">
+						<Name>Siov</Name>
+						<Code>000000068</Code>
+						<Description>Siov</Description>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="226c8d91-5581-49ba-85c5-4b92b77b9e92">
+						<Name>Багаж</Name>
+						<Code>000000072</Code>
+						<Description>Багаж</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="7bd15643-e67a-4c2c-8e3e-c61f3b4fd5e9">
+						<Name>ВремяВПути</Name>
+						<Code>000000069</Code>
+						<Description>Время в пути</Description>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>Time</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f32a9727-2941-47c7-83b3-a3e8ece5b3c6">
+						<Name>ДатаОтправления</Name>
+						<Code>000000033</Code>
+						<Description>Дата отправления</Description>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>DateTime</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="75c9b391-4da7-46be-90cf-a77c8adc7260">
+						<Name>ДатаПрибытия</Name>
+						<Code>000000034</Code>
+						<Description>Дата прибытия</Description>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>DateTime</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2d2a200b-da40-4125-9780-a403ed0bc1a3">
+						<Name>КодОтправления</Name>
+						<Code>000000030</Code>
+						<Description>Код отправления</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="14ed63df-095e-407f-81bf-cf726687e0de">
+						<Name>КодПрибытия</Name>
+						<Code>000000032</Code>
+						<Description>Код прибытия</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="df870f48-d9ea-4127-bf1a-b37420fa2e9c">
+						<Name>Курящий</Name>
+						<Code>000000074</Code>
+						<Description>Курящий</Description>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b17415b6-e0fa-44a7-bc35-3272144db3aa">
+						<Name>Питание</Name>
+						<Code>000000071</Code>
+						<Description>Питание</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>2</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="033aac00-b8b0-480c-8ae4-cbe67627c9f8">
+						<Name>РейсСегмента</Name>
+						<Code>000000051</Code>
+						<Description>Рейс сегмента</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="cab3f052-a473-4035-97e9-7f438c87a71b">
+						<Name>СидячееМесто</Name>
+						<Code>000000078</Code>
+						<Description>Сидячее место</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="da631143-6eae-428d-bcb8-7803c27b473d">
+						<Name>Статус</Name>
+						<Code>000000077</Code>
+						<Description>Статус</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="837c0063-8b67-487b-b08c-166109afb7f7">
+						<Name>ТерминалОтправления</Name>
+						<Code>000000075</Code>
+						<Description>Терминал отправления</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>3</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="77c9812d-23ff-4a30-aedc-0f17efbe3659">
+						<Name>ТерминалПрибытия</Name>
+						<Code>000000076</Code>
+						<Description>Терминал прибытия</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>3</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="12735240-df38-4b73-b2a0-64db3d957503">
+				<Name>ТаксыАвиа</Name>
+				<Code>000000035</Code>
+				<Description>Таксы авиа</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="bef2f1d3-7e8a-46b7-b07c-24045a1730d6">
+						<Name>НазваниеТаксы</Name>
+						<Code>000000036</Code>
+						<Description>Название таксы</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>250</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b33ccef1-8263-4df5-ac6d-b41b5d36e9a5">
+						<Name>Таксы</Name>
+						<Code>000000022</Code>
+						<Description>Таксы</Description>
+						<Type>
+							<v8:Type xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d8p1:DocumentRef.СписокДопУслуг</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="1eb99161-22b2-4bb0-b23d-d47a0d0737de">
+				<Name>LowCost</Name>
+				<Code>000000088</Code>
+				<Description>Low cost</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="36cfd364-8388-4fac-ad72-71f1ee9d6bc2">
+				<Name>Вынужденный</Name>
+				<Code>000000080</Code>
+				<Description>Вынужденный</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6ecdf29b-da48-4286-9f9a-daedc10fca01">
+				<Name>КлассБилета</Name>
+				<Code>000000099</Code>
+				<Description>Класс билета</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1dfa5a7a-ee45-4b3f-8267-c73e87e7269f">
+				<Name>КодАвторизации</Name>
+				<Code>000000093</Code>
+				<Description>Код авторизации</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="56700c11-62fe-4529-8c20-4125a33aac66">
+				<Name>КоличествоСегментов</Name>
+				<Code>000000109</Code>
+				<Description>Количество сегментов</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3e16a88a-39e2-45d1-a3ee-fe874e640fbb">
+				<Name>КоммисияGDS</Name>
+				<Code>000000089</Code>
+				<Description>Коммисия GDS</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="678ffb05-551c-47c9-bffa-0797931181d8">
+				<Name>КоммисияMO</Name>
+				<Code>000000090</Code>
+				<Description>Коммисия MO</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="818103fe-2813-4ff0-9bf0-cc073adb9759">
+				<Name>Невалидация</Name>
+				<Code>000000079</Code>
+				<Description>Невалидация</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="00379fda-082e-40d5-86eb-d3290403eefc">
+				<Name>Невозвратный</Name>
+				<Code>000000008</Code>
+				<Description>Невозвратный</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6dfa2a79-9da5-4c0e-a5cd-20828ffcfb4c">
+				<Name>НомерБСО</Name>
+				<Code>000000082</Code>
+				<Description>Номер БСО</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="21c6fd4d-9771-47a8-bc44-d1010ee7944c">
+				<Name>НосительБилета</Name>
+				<Code>000000084</Code>
+				<Description>Носитель билета</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f8197ecb-0e02-4924-8f8d-3f9260f62cb3">
+				<Name>Перевозчик</Name>
+				<Code>000000024</Code>
+				<Description>Перевозчик</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f0715f14-4e2f-4a92-bd23-b9d521d6b496">
+				<Name>ПоВинеКлиента</Name>
+				<Code>000000081</Code>
+				<Description>По вине клиента</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e1150267-2e0e-4dc0-ba9b-eac8650c3b8a">
+				<Name>ПризнакЛинии</Name>
+				<Code>000000043</Code>
+				<Description>Признак линии</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="522b5a1d-a3ab-4971-9f94-5c078d65843f">
+				<Name>ПриобретенныйВСтороннейКассе</Name>
+				<Code>000000083</Code>
+				<Description>Приобретенный в сторонней кассе</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b54befa3-ac78-4431-b876-a129ca200c8a">
+				<Name>ПрямаяОплатаПоставщика</Name>
+				<Code>000000091</Code>
+				<Description>Прямая оплата поставщика</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f2f989ea-97ac-4d66-8d98-14d9febfc129">
+				<Name>Сегменты</Name>
+				<Code>000000021</Code>
+				<Description>Сегменты</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:DocumentRef.СписокДопУслуг</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6be0619d-ab2f-4912-9a62-d2ce7e96dcf8">
+				<Name>СуммаТарифа</Name>
+				<Code>000000061</Code>
+				<Description>Сумма тарифа</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3c164e99-6d77-4892-b977-84fa17e56ab5">
+				<Name>ТипБилета</Name>
+				<Code>000000002</Code>
+				<Description>Тип билета</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="863ee2a7-2009-484d-903e-745c2a5dc339">
+				<Name>ТурКод</Name>
+				<Code>000000108</Code>
+				<Description>Тур код</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="340bc71a-4dd7-45c2-aac5-70ecc0990a43">
+		<Name>Визы</Name>
+		<Code>000000055</Code>
+		<Description>Визы</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="375bd5e2-043b-4296-8942-32a1715f744b">
+				<Name>ТипВизы</Name>
+				<Code>000000056</Code>
+				<Description>Тип визы</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="689f5480-c917-4f86-9d77-31a29e069ddf">
+		<Name>Гостиница</Name>
+		<Code>000000009</Code>
+		<Description>Гостиница</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="9052c4b2-8e90-4e62-8ccd-584cf945236e">
+				<Name>КатегорияГостиницы</Name>
+				<Code>000000044</Code>
+				<Description>Категория гостиницы</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e60c35c8-fbb9-4842-bfb3-140acecf8232">
+				<Name>НаименованиеГостиницы</Name>
+				<Code>000000018</Code>
+				<Description>Наименование гостиницы</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1f314f75-ef42-4c35-9467-9495dc71a838">
+				<Name>НаименованиеТипаНомера</Name>
+				<Code>000000019</Code>
+				<Description>Наименование типа номера</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5605b8f1-0105-4465-9829-a258032e882f">
+				<Name>НомерБрони</Name>
+				<Code>000000050</Code>
+				<Description>Номер брони</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c6f117df-cd0b-468e-aff8-cc230d8263dd">
+				<Name>Ночей</Name>
+				<Code>000000010</Code>
+				<Description>Ночей</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="091bc593-90a7-4315-a295-094a434a3dc6">
+				<Name>ПозднийВыезд</Name>
+				<Code>000000012</Code>
+				<Description>Поздний выезд</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ffdca158-69cf-4a02-b918-2399647b1a61">
+				<Name>РаннийЗаезд</Name>
+				<Code>000000011</Code>
+				<Description>Ранний заезд</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="182bba28-3270-417f-be69-2091a909f47c">
+				<Name>ТипПитания</Name>
+				<Code>000000020</Code>
+				<Description>Тип питания</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="abb54c87-9059-4e5a-baf6-9f9218b010fc">
+		<Name>ЖДБилеты</Name>
+		<Code>000000006</Code>
+		<Description>ЖДБилеты</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="86802f34-4153-4176-b617-dafd9beda9d6">
+				<Name>Вагон</Name>
+				<Code>000000096</Code>
+				<Description>Вагон</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>10</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="252f7037-820f-4504-af56-7cf2d8fe1eaa">
+				<Name>Место</Name>
+				<Code>000000097</Code>
+				<Description>Место</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>10</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="52e20c04-ae56-4ecb-b040-0521a0fbb2b9">
+				<Name>НомерEMD</Name>
+				<Code>000000052</Code>
+				<Description>Номер EMD</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>50</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="418bef8d-21aa-44e2-a11e-9a8c2470bf4a">
+				<Name>НомерПоезда</Name>
+				<Code>000000027</Code>
+				<Description>Номер поезда</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ab29de7c-fe3b-4d05-8ade-c1eb65dc568e">
+				<Name>СЕдой</Name>
+				<Code>000000013</Code>
+				<Description>С едой</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9b043aea-771f-4fc7-855c-dcccfd85ad60">
+				<Name>ТипЖДБилета</Name>
+				<Code>000000007</Code>
+				<Description>Тип ЖД Билета</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="7317e905-408b-448e-a68d-65691b4000ab">
+		<Name>ОбщееПоБилетам</Name>
+		<Code>000000053</Code>
+		<Description>Общее по билетам</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="6cfc3dff-901b-441f-876c-c19268dea864">
+				<Name>БилетПродажи</Name>
+				<Code>000000054</Code>
+				<Description>Билет продажи</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:DocumentRef.Услуга</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="67478aaf-9791-498a-92df-18cc5958376b">
+				<Name>МаршрутСокращенный</Name>
+				<Code>000000057</Code>
+				<Description>Маршрут сокращенный</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="549d93f9-f13f-40d7-b4d4-72ac0f85da1c">
+		<Name>ОбщиеХарактеристики</Name>
+		<Code>000000003</Code>
+		<Description>Общие характеристики</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="c662be6d-84b3-49ec-832d-a5600b6fa625">
+				<Name>IDБронирования</Name>
+				<Code>000000110</Code>
+				<Description>ID Бронирования</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6d7f8607-223e-4130-862a-87fdeb210529">
+				<Name>IDСинхронизации</Name>
+				<Code>000000017</Code>
+				<Description>IDСинхронизации</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3bb4d0a8-623f-41cd-bc3a-1daabdb54786">
+				<Name>АдресНазначения</Name>
+				<Code>000000086</Code>
+				<Description>Адрес назначения</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c0d47c6e-7de7-4a8d-93f7-0ebaff816b22">
+				<Name>АдресОтправления</Name>
+				<Code>000000085</Code>
+				<Description>Адрес отправления</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0ebdcbb8-687e-4968-8a33-1c7b14ac1300">
+				<Name>Валюта</Name>
+				<Code>000000087</Code>
+				<Description>Валюта</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Валюты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2a47be13-e06d-4946-97e5-9ad0717dab43">
+				<Name>ГородОтправления</Name>
+				<Code>000000004</Code>
+				<Description>Город отправления</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f6d87f34-bd08-46cd-be5a-20e53332c0fb">
+				<Name>ГородПрибытия</Name>
+				<Code>000000005</Code>
+				<Description>Город прибытия</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d47cdb12-1338-45f8-9955-2ddd8c9b08d0">
+				<Name>ДатаВремяНачалаУслуги</Name>
+				<Code>000000014</Code>
+				<Description>Дата время начала услуги</Description>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>DateTime</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d63527c2-ed33-4f55-990c-686d29d002ba">
+				<Name>ДатаВремяОкончанияУслуги</Name>
+				<Code>000000015</Code>
+				<Description>Дата время окончания услуги</Description>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>DateTime</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1f4ad3f4-07b0-4b3b-b094-1dbe1dd93e72">
+				<Name>Долгота</Name>
+				<Code>000000064</Code>
+				<Description>Долгота</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0a484f0f-b4da-4304-a710-43c214a1cd50">
+				<Name>ДолготаОтправления</Name>
+				<Code>000000095</Code>
+				<Description>Долгота отправления</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>50</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="bfbf03e0-c9fa-4ab9-8a91-e5ef2c170394">
+				<Name>ИмяКомандируемого</Name>
+				<Code>000000107</Code>
+				<Description>Имя командируемого</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cbc2b15f-2972-4b81-83b1-b5366f0f1674">
+				<Name>КурсВалюты</Name>
+				<Code>000000112</Code>
+				<Description>Курс валюты</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5639ad55-b5ac-401a-be1a-76105edb66d8">
+				<Name>Маршрут</Name>
+				<Code>000000023</Code>
+				<Description>Маршрут</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0a724b58-3c87-4fc2-b09c-2550199f30e5">
+				<Name>МВЛВВЛ</Name>
+				<Code>000000049</Code>
+				<Description>МВЛ или ВВЛ</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>3</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cec1d5da-6c1d-41f9-a503-68a7efd2750d">
+				<Name>МД5ИсходногоФайла</Name>
+				<Code>000000038</Code>
+				<Description>МД5 исходного файла</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="44c3d191-cd33-44af-8545-c22387887592">
+				<Name>МестоОтправления</Name>
+				<Code>000000029</Code>
+				<Description>Место отправления</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Места</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2afbe37d-6334-411f-bb19-2f7a23de2485">
+				<Name>МестоПрибытия</Name>
+				<Code>000000031</Code>
+				<Description>Место прибытия</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Места</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8ed0fb8f-821f-4b66-9653-8084eb85d6d8">
+				<Name>НомерДокумента</Name>
+				<Code>000000016</Code>
+				<Description>Номер документа</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="676946fc-b0e1-4c11-915a-d268c6e1fa77">
+				<Name>ПеревозчикКонтрагент</Name>
+				<Code>000000101</Code>
+				<Description>Перевозчик контрагент</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Контрагенты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="71d5835e-2ed7-4476-8652-617cd1139715">
+				<Name>Плательщик</Name>
+				<Code>000000037</Code>
+				<Description>Плательщик</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Контрагенты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1547a4de-b80e-401c-b90b-3c080db989c6">
+				<Name>Поставщик</Name>
+				<Code>000000039</Code>
+				<Description>Поставщик</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Контрагенты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2be5807e-abfe-42bb-9ab0-b43aa8edcd76">
+				<Name>СборПоставщика</Name>
+				<Code>000000066</Code>
+				<Description>Сбор поставщика</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5a3f742a-6bc5-4849-a256-75d36cadbc5b">
+				<Name>СуммаБезНДС</Name>
+				<Code>000000047</Code>
+				<Description>Сумма Без НДС</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cb2c4315-95a7-4885-9aa7-55b7e342df54">
+				<Name>СуммаКомиссии</Name>
+				<Code>000000104</Code>
+				<Description>Сумма комиссии</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1b345b02-4b89-42ba-8da3-495a5eaab85e">
+				<Name>СуммаНаценки</Name>
+				<Code>000000103</Code>
+				<Description>Сумма наценки</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0f54bcae-33b7-4b2b-87cf-13f8b927f84f">
+				<Name>СуммаНДС10</Name>
+				<Code>000000046</Code>
+				<Description>Сумма НДС 10</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4a9cf65c-ec6c-4024-a9e8-6a79e4014cee">
+				<Name>СуммаНДС18</Name>
+				<Code>000000045</Code>
+				<Description>Сумма НДС 20</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="af41dae5-2cd1-4fb5-a379-9f853c01a6e9">
+				<Name>СуммаНДСКомиссии</Name>
+				<Code>000000105</Code>
+				<Description>Сумма НДС Комиссии</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="95153dee-5097-458a-ab6f-9c100f0b121d">
+				<Name>СуммаНДСШтрафа</Name>
+				<Code>000000111</Code>
+				<Description>Сумма НДС Штрафа</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0c89b900-f81b-408d-9f88-07dabf16d76b">
+				<Name>СуммаСНаценкой</Name>
+				<Code>000000106</Code>
+				<Description>Сумма с наценкой</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c04d0564-db10-4b02-ae49-a6e2dd26149f">
+				<Name>СуммаСНДС10</Name>
+				<Code>000000062</Code>
+				<Description>Сумма с НДС 10</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5400cda5-d127-4d4c-9812-f0aef94a2fa1">
+				<Name>СуммаСНДС18</Name>
+				<Code>000000048</Code>
+				<Description>Сумма с НДС 20</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="82a73c8c-5f2c-4fcc-9a47-3b112c4ee08f">
+				<Name>СуммаСбораПоставщика</Name>
+				<Code>000000098</Code>
+				<Description>Сумма сбора поставщика</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="71c4da03-46d4-41f3-9bac-2656c97feed8">
+				<Name>СуммаСкидки</Name>
+				<Code>000000102</Code>
+				<Description>Сумма скидки</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a10340cf-58d5-4bb5-a786-5098a8b94ecd">
+				<Name>СуммаУслуги</Name>
+				<Code>000000040</Code>
+				<Description>Сумма услуги</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2bc44ef4-ef9e-4928-9b6a-ae3e961180a4">
+				<Name>СуммаШтрафа</Name>
+				<Code>000000058</Code>
+				<Description>Сумма штрафа</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="fd9dd021-ff56-4b48-b3c7-33a8cd002bff">
+				<Name>ТипОплатыКлиентом</Name>
+				<Code>000000042</Code>
+				<Description>Тип оплаты клиентом</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:EnumRef.ФормыОплаты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="05d40101-dc61-4f2e-a2f4-24b1d6579f59">
+				<Name>ТипОплатыПоставщику</Name>
+				<Code>000000041</Code>
+				<Description>Тип оплаты поставщику</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:EnumRef.ФормыОплаты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a771c340-67e5-4cf5-bc1f-904a71e9a291">
+				<Name>УслугаОтмены</Name>
+				<Code>000000100</Code>
+				<Description>Услуга отмены</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:DocumentRef.Услуга</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="93363c93-6003-4ff1-90f8-6391c46d1d27">
+				<Name>Широта</Name>
+				<Code>000000063</Code>
+				<Description>Широта</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1eb12316-0e56-4767-802d-19aa82a74f78">
+				<Name>ШиротаОтправления</Name>
+				<Code>000000094</Code>
+				<Description>Широта отправления</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>50</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="4d28d4c2-331d-4d71-aa71-67caec57a164">
+		<Name>СервисныеСборы</Name>
+		<Code>000000025</Code>
+		<Description>Сервисные сборы</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="629e3e86-e969-48be-adf6-f753e318ecf4">
+				<Name>СуммаСервисногоСбора</Name>
+				<Code>000000065</Code>
+				<Description>Сумма сервисного сбора</Description>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3ded3a8e-cf17-4256-b4fe-6e94bfdd9f6e">
+				<Name>УслугаПрименения</Name>
+				<Code>000000026</Code>
+				<Description>Услуга применения</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:DocumentRef.Услуга</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
